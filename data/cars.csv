@@ -1,0 +1,563 @@
+Make,Model,Drivetrain,Max Power,Max Torque,Length,Width,Height,Weight,Aspiration
+Ford,1932 Roadster,FR,179 HP,308.2 ft-lb,147.0 in.,65.5 in.,56.0 in.,2458 lbs.,NA
+AFEELA,1 '26,4WD,- HP,- ft-lb,193.5 in.,74.8 in.,57.5 in.,- lbs.,EV
+AFEELA,Prototype 2024,4WD,- HP,- ft-lb,193.5 in.,74.8 in.,57.5 in.,- lbs.,EV
+Abarth,1500 Biposto Bertone B.A.T 1 '52,FR,73 HP,73.7 ft-lb,178.0 in.,65.0 in.,54.3 in.,1918 lbs.,NA
+Abarth,500 '09,FF,133 HP,133.0 ft-lb,144.0 in.,64.1 in.,58.5 in.,2282 lbs.,TC
+Alfa Romeo,155 2.5 V6 TI '93,4WD,413 HP,216.9 ft-lb,180.2 in.,68.9 in.,54.3 in.,2227 lbs.,NA
+Alfa Romeo,4C Gr.3,MR,528 HP,390.3 ft-lb,170.9 in.,76.8 in.,46.5 in.,2690 lbs.,TC
+Alfa Romeo,4C Gr.3 Road Car,MR,443 HP,330.3 ft-lb,170.9 in.,76.8 in.,46.5 in.,2910 lbs.,TC
+Alfa Romeo,4C Gr.4,MR,295 HP,262.9 ft-lb,157.1 in.,73.6 in.,45.6 in.,2249 lbs.,TC
+Alfa Romeo,4C Launch Edition '14,MR,235 HP,258.2 ft-lb,157.1 in.,73.6 in.,46.7 in.,2094 lbs.,TC
+Alfa Romeo,8C 2900B Touring Berlinetta '38,FR,179 HP,193.1 ft-lb,196.9 in.,66.9 in.,59.1 in.,2888 lbs.,SC
+Alfa Romeo,8C Competizione '08,FR,442 HP,354.4 ft-lb,172.5 in.,74.6 in.,52.8 in.,3494 lbs.,NA
+Alfa Romeo,GIULIA TZ2 carrozzata da ZAGATO '65,FR,168 HP,127.2 ft-lb,144.9 in.,63.0 in.,42.3 in.,1367 lbs.,NA
+Alfa Romeo,Giulia GTAm '20,FR,532 HP,442.6 ft-lb,183.8 in.,75.7 in.,55.0 in.,3483 lbs.,TC
+Alfa Romeo,Giulia Sprint GT Veloce '67,FR,104 HP,102.7 ft-lb,160.6 in.,62.2 in.,51.8 in.,2293 lbs.,NA
+Alfa Romeo,MiTo 1.4 T Sport '09,FF,152 HP,148.2 ft-lb,160.2 in.,67.7 in.,58.1 in.,2524 lbs.,TC
+Alpine,A110 1600S '72,RR,138 HP,114.2 ft-lb,151.6 in.,59.8 in.,44.5 in.,1576 lbs.,NA
+Alpine,A110 Première Édition '17,MR,248 HP,236.1 ft-lb,164.6 in.,70.8 in.,49.3 in.,2432 lbs.,TC
+Alpine,A220 Race Car '68,MR,319 HP,253.1 ft-lb,160.6 in.,68.5 in.,40.6 in.,1521 lbs.,NA
+Alpine,Vision Gran Turismo,MR,443 HP,426.7 ft-lb,181.9 in.,82.7 in.,37.0 in.,1984 lbs.,NA
+Alpine,Vision Gran Turismo 2017,RR,594 HP,409.3 ft-lb,208.0 in.,82.7 in.,37.0 in.,2050 lbs.,NA
+Alpine,Vision Gran Turismo Race Mode,MR,443 HP,426.7 ft-lb,198.7 in.,82.7 in.,37.0 in.,1984 lbs.,NA
+Amuse,NISMO 380RS Super Leggera,FR,380 HP,302.3 ft-lb,178.0 in.,72.6 in.,51.8 in.,3020 lbs.,NA
+Amuse,S2000 GT1 Turbo,FR,616 HP,419.5 ft-lb,166.4 in.,72.0 in.,47.2 in.,2469 lbs.,TC
+Aston Martin,DB11 '16,FR,599 HP,516.6 ft-lb,186.6 in.,81.1 in.,50.4 in.,3902 lbs.,TC
+Aston Martin,DB3S '53,FR,224 HP,224.4 ft-lb,153.7 in.,63.8 in.,41.5 in.,1887 lbs.,NA
+Aston Martin,DB5 '64,FR,281 HP,279.9 ft-lb,179.9 in.,66.0 in.,52.0 in.,3236 lbs.,NA
+Aston Martin,DBR9 GT1 '10,FR,599 HP,490.8 ft-lb,184.5 in.,77.9 in.,47.0 in.,2425 lbs.,NA
+Aston Martin,DP-100 Vision Gran Turismo,4WD,799 HP,774.9 ft-lb,180.2 in.,79.0 in.,43.8 in.,3031 lbs.,TC
+Aston Martin,One-77 '11,FR,748 HP,553.5 ft-lb,181.1 in.,78.7 in.,48.1 in.,3593 lbs.,NA
+Aston Martin,V12 Vantage GT3 '12,FR,591 HP,506.7 ft-lb,187.4 in.,77.9 in.,52.8 in.,2756 lbs.,NA
+Aston Martin,V8 Vantage S '15,FR,429 HP,361.6 ft-lb,172.6 in.,79.6 in.,49.6 in.,3549 lbs.,NA
+Aston Martin,Valkyrie '21,MR,1139 HP,680.3 ft-lb,177.4 in.,75.6 in.,41.7 in.,2800 lbs.,NA
+Aston Martin,Vantage '18,FR,502 HP,505.5 ft-lb,175.8 in.,76.5 in.,50.1 in.,3373 lbs.,TC
+Aston Martin,Vantage Gr.4,FR,399 HP,361.6 ft-lb,175.6 in.,74.7 in.,48.9 in.,2976 lbs.,NA
+Aston Martin,Vulcan '16,FR,820 HP,590.4 ft-lb,189.3 in.,81.2 in.,47.4 in.,2998 lbs.,NA
+Audi,R18 '16,4WD,506 HP,628.4 ft-lb,183.1 in.,74.8 in.,41.3 in.,1929 lbs.,TC
+Audi,R18 TDI '11,MR,532 HP,664.2 ft-lb,183.1 in.,78.7 in.,43.3 in.,1984 lbs.,TC
+Audi,R8 4.2 FSI R tronic '07,4WD,414 HP,317.3 ft-lb,174.4 in.,75.0 in.,49.2 in.,3439 lbs.,NA
+Audi,R8 Coupé V10 plus '16,4WD,601 HP,412.9 ft-lb,174.2 in.,76.4 in.,48.8 in.,3205 lbs.,NA
+Audi,R8 LMS '15,MR,585 HP,423.8 ft-lb,180.4 in.,78.6 in.,46.1 in.,2701 lbs.,NA
+Audi,R8 LMS Evo '19,MR,576 HP,423.8 ft-lb,180.0 in.,78.6 in.,46.1 in.,2723 lbs.,NA
+Audi,RS 5 Turbo DTM '19,FR,603 HP,479.7 ft-lb,195.2 in.,76.8 in.,45.3 in.,2174 lbs.,TC
+Audi,Sport quattro S1 Pikes Peak '87,4WD,588 HP,435.4 ft-lb,166.9 in.,73.2 in.,52.9 in.,2205 lbs.,TC
+Audi,TT Coupé 3.2 quattro '03,4WD,239 HP,236.5 ft-lb,159.1 in.,69.4 in.,53.0 in.,3351 lbs.,NA
+Audi,TT Cup '16,FF,335 HP,295.0 ft-lb,167.7 in.,78.5 in.,50.5 in.,2480 lbs.,TC
+Audi,TTS Coupé '09,4WD,268 HP,258.2 ft-lb,165.3 in.,72.5 in.,53.0 in.,3120 lbs.,TC
+Audi,TTS Coupé '14,4WD,305 HP,280.5 ft-lb,165.0 in.,72.1 in.,52.9 in.,3053 lbs.,TC
+Audi,Vision Gran Turismo,4WD,735 HP,516.4 ft-lb,185.2 in.,83.7 in.,43.6 in.,2756 lbs.,TC
+Audi,e-tron Vision Gran Turismo,4WD,803 HP,- ft-lb,185.2 in.,83.7 in.,43.6 in.,3197 lbs.,EV
+Autobianchi,A112 Abarth '85,FF,71 HP,64.3 ft-lb,128.7 in.,58.3 in.,53.5 in.,1565 lbs.,NA
+BAC,Mono '16,MR,304 HP,227.1 ft-lb,155.6 in.,72.3 in.,43.7 in.,1279 lbs.,NA
+BMW,3.0 CSL '71,FR,177 HP,188.0 ft-lb,183.5 in.,67.3 in.,53.9 in.,2568 lbs.,NA
+BMW,3.0 CSL '73,FR,202 HP,211.2 ft-lb,183.5 in.,68.1 in.,53.9 in.,2756 lbs.,NA
+BMW,M2 Competition '18,FR,405 HP,405.7 ft-lb,175.6 in.,73.0 in.,55.5 in.,3472 lbs.,TC
+BMW,M3 '89,FR,212 HP,169.9 ft-lb,171.1 in.,66.1 in.,53.9 in.,2646 lbs.,NA
+BMW,M3 '97,FR,316 HP,258.2 ft-lb,174.5 in.,67.3 in.,52.6 in.,3219 lbs.,NA
+BMW,M3 Coupé '03,FR,339 HP,269.0 ft-lb,176.8 in.,70.1 in.,53.9 in.,3439 lbs.,NA
+BMW,M3 Coupé '07,FR,415 HP,295.2 ft-lb,181.7 in.,71.0 in.,55.8 in.,3649 lbs.,NA
+BMW,M3 GT '11,FR,500 HP,369.0 ft-lb,185.6 in.,75.5 in.,50.7 in.,2745 lbs.,NA
+BMW,M3 Sport Evolution '89,FR,234 HP,177.2 ft-lb,171.1 in.,66.1 in.,54.5 in.,2646 lbs.,NA
+BMW,M4 Coupé '14,FR,425 HP,405.9 ft-lb,183.9 in.,73.6 in.,54.4 in.,3300 lbs.,TC
+BMW,M4 Gr.4,FR,394 HP,376.6 ft-lb,188.1 in.,73.6 in.,53.3 in.,3009 lbs.,TC
+BMW,M4 Safety Car,FR,425 HP,405.9 ft-lb,183.9 in.,73.6 in.,54.4 in.,3300 lbs.,TC
+BMW,M6 GT3 Endurance Model '16,FR,584 HP,553.3 ft-lb,194.6 in.,80.6 in.,50.3 in.,2866 lbs.,TC
+BMW,M6 GT3 Sprint Model '16,FR,584 HP,553.3 ft-lb,194.6 in.,80.6 in.,50.3 in.,2866 lbs.,TC
+BMW,McLaren F1 GTR Race Car '97,MR,602 HP,524.7 ft-lb,193.9 in.,75.6 in.,44.1 in.,2094 lbs.,NA
+BMW,Vision Gran Turismo,FR,541 HP,501.8 ft-lb,179.4 in.,75.7 in.,52.4 in.,2601 lbs.,TC
+BMW,Z4 3.0i '03,FR,227 HP,221.3 ft-lb,161.1 in.,70.1 in.,51.1 in.,2844 lbs.,NA
+BMW,Z4 GT3 '11,FR,522 HP,380.0 ft-lb,172.7 in.,79.2 in.,47.6 in.,2623 lbs.,NA
+BMW,Z8 '01,FR,395 HP,368.8 ft-lb,173.2 in.,72.0 in.,51.8 in.,3549 lbs.,NA
+BMW,i3 '15,MR,166 HP,- ft-lb,157.9 in.,69.9 in.,61.0 in.,2778 lbs.,EV
+BVLGARI,Aluminium Vision Gran Turismo,MR,394 HP,278.6 ft-lb,165.2 in.,75.2 in.,40.6 in.,2205 lbs.,NA
+Bugatti,Chiron '16,4WD,1479 HP,1197.0 ft-lb,178.9 in.,80.2 in.,47.7 in.,4398 lbs.,TC
+Bugatti,Veyron 16.4 '13,4WD,986 HP,922.5 ft-lb,175.7 in.,78.7 in.,47.5 in.,4162 lbs.,TC
+Bugatti,Veyron Gr.4,4WD,433 HP,405.6 ft-lb,177.0 in.,78.7 in.,46.0 in.,3638 lbs.,TC
+Bugatti,Vision Gran Turismo,4WD,1626 HP,1353.2 ft-lb,187.1 in.,83.6 in.,44.6 in.,3086 lbs.,TC
+Bugatti,Vision Gran Turismo (Gr.1),4WD,641 HP,533.2 ft-lb,187.1 in.,83.6 in.,44.6 in.,2161 lbs.,TC
+Chaparral,2J '70,MR,683 HP,549.7 ft-lb,145.0 in.,78.0 in.,38.0 in.,1810 lbs.,NA
+Chevrolet,Camaro 1969 Race-Mod,FR,657 HP,623.6 ft-lb,186.0 in.,74.0 in.,51.6 in.,2910 lbs.,SC
+Chevrolet,Camaro SS '16,FR,453 HP,455.6 ft-lb,188.3 in.,74.7 in.,53.1 in.,3686 lbs.,NA
+Chevrolet,Camaro Z28 '69,FR,289 HP,290.0 ft-lb,186.0 in.,74.0 in.,51.6 in.,3120 lbs.,NA
+Chevrolet,Camaro ZL1 1LE Package '18,FR,649 HP,640.8 ft-lb,188.3 in.,74.7 in.,52.4 in.,3818 lbs.,SC
+Chevrolet,Chaparral 2X Vision Gran Turismo,---,905 HP,587.4 ft-lb,163.4 in.,77.7 in.,34.6 in.,992 lbs.,---
+Chevrolet,Chevelle SS 454 Sport Coupé '70,FR,449 HP,499.7 ft-lb,197.2 in.,75.4 in.,52.6 in.,3885 lbs.,NA
+Chevrolet,Corvette (C1) '58,FR,243 HP,300.1 ft-lb,177.2 in.,72.8 in.,51.1 in.,2926 lbs.,NA
+Chevrolet,Corvette C7 Gr.3,FR,571 HP,527.2 ft-lb,188.1 in.,80.7 in.,45.7 in.,2866 lbs.,NA
+Chevrolet,Corvette C7 Gr.3 Road Car,FR,493 HP,487.5 ft-lb,179.9 in.,80.7 in.,45.7 in.,3263 lbs.,NA
+Chevrolet,Corvette C7 Gr.4,FR,414 HP,419.5 ft-lb,180.1 in.,73.7 in.,46.9 in.,2976 lbs.,NA
+Chevrolet,Corvette C7 Stingray '14,FR,453 HP,460.0 ft-lb,177.0 in.,73.9 in.,48.6 in.,3307 lbs.,NA
+Chevrolet,Corvette C7 ZR1 '19,FR,754 HP,715.3 ft-lb,179.8 in.,77.4 in.,48.5 in.,3560 lbs.,SC
+Chevrolet,Corvette C8 Stingray '20,MR,494 HP,470.1 ft-lb,182.3 in.,76.1 in.,48.6 in.,3373 lbs.,NA
+Chevrolet,Corvette CX Concept '25,4WD,2145 HP,- ft-lb,186.3 in.,86.5 in.,41.0 in.,3086 lbs.,EV
+Chevrolet,Corvette CX.R Vision Gran Turismo Concept,4WD,2038 HP,- ft-lb,186.3 in.,86.5 in.,41.0 in.,2756 lbs.,TC
+Chevrolet,Corvette Sting Ray Sport Coupe (C2) '63,FR,359 HP,352.2 ft-lb,175.3 in.,69.6 in.,49.8 in.,3042 lbs.,NA
+Chevrolet,Corvette Stingray Convertible (C3) '69,FR,298 HP,380.0 ft-lb,182.5 in.,69.0 in.,47.9 in.,3422 lbs.,NA
+Chevrolet,Corvette Stingray L46 350 (C3) '69,FR,350 HP,394.4 ft-lb,182.5 in.,69.0 in.,47.8 in.,3285 lbs.,NA
+Chevrolet,Corvette Stingray Racer Concept '59,FR,314 HP,289.3 ft-lb,174.4 in.,69.0 in.,49.8 in.,2535 lbs.,NA
+Chevrolet,Corvette Z06 (C5) '01,FR,384 HP,385.5 ft-lb,179.7 in.,73.6 in.,47.7 in.,3106 lbs.,NA
+Chevrolet,Corvette ZR-1 (C4) '89,FR,375 HP,370.3 ft-lb,177.4 in.,74.0 in.,46.7 in.,3466 lbs.,NA
+Chevrolet,Corvette ZR1 (C6) '09,FR,639 HP,603.9 ft-lb,176.2 in.,75.9 in.,49.0 in.,3325 lbs.,SC
+Chris Holstrom Concepts,1967 Chevy Nova,FR,732 HP,693.3 ft-lb,187.4 in.,71.3 in.,53.8 in.,3011 lbs.,SC
+Citroën,BX 19 TRS '87,FF,103 HP,119.3 ft-lb,166.8 in.,66.2 in.,53.5 in.,2194 lbs.,NA
+Citroën,DS 21 Pallas '70,FF,103 HP,122.9 ft-lb,191.7 in.,70.9 in.,57.9 in.,2866 lbs.,NA
+DAIHATSU,COPEN RJ Vision Gran Turismo,FF,146 HP,149.4 ft-lb,139.4 in.,60.4 in.,52.4 in.,1323 lbs.,TC
+DMC,DeLorean S2 '04,RR,197 HP,211.9 ft-lb,168.0 in.,73.1 in.,44.9 in.,2840 lbs.,NA
+DS,3 Racing '11,FF,203 HP,202.5 ft-lb,155.4 in.,67.6 in.,59.1 in.,2568 lbs.,TC
+Daihatsu,Copen Active Top '02,FF,62 HP,81.1 ft-lb,133.7 in.,58.1 in.,49.0 in.,1830 lbs.,TC
+Dallara,SF19 Super Formula / Honda '19,MR,639 HP,368.4 ft-lb,206.0 in.,75.2 in.,37.8 in.,1455 lbs.,TC
+Dallara,SF19 Super Formula / Toyota '19,MR,639 HP,368.4 ft-lb,206.0 in.,75.2 in.,37.8 in.,1455 lbs.,TC
+Dallara,SF23 Super Formula/Honda '23,MR,625 HP,398.0 ft-lb,206.1 in.,75.6 in.,37.8 in.,1477 lbs.,TC
+Dallara,SF23 Super Formula/Toyota '23,MR,625 HP,398.0 ft-lb,206.1 in.,75.6 in.,37.8 in.,1477 lbs.,TC
+De Tomaso,Mangusta '69,MR,300 HP,410.8 ft-lb,168.3 in.,72.0 in.,43.3 in.,2612 lbs.,NA
+De Tomaso,Pantera '71,MR,325 HP,344.2 ft-lb,168.1 in.,72.0 in.,43.3 in.,3131 lbs.,NA
+Dodge,Challenger R/T '70,FR,425 HP,489.8 ft-lb,191.5 in.,76.5 in.,51.0 in.,3801 lbs.,NA
+Dodge,Challenger SRT Demon '18,FR,840 HP,770.3 ft-lb,197.4 in.,78.8 in.,57.4 in.,4279 lbs.,SC
+Dodge,Charger R/T 426 Hemi '68,FR,425 HP,490.3 ft-lb,208.0 in.,76.6 in.,53.0 in.,3979 lbs.,NA
+Dodge,Charger SRT Hellcat '15,FR,707 HP,650.2 ft-lb,200.3 in.,74.2 in.,58.2 in.,4365 lbs.,SC
+Dodge,Charger SRT Hellcat Safety Car,FR,707 HP,650.2 ft-lb,200.3 in.,74.2 in.,58.2 in.,4365 lbs.,SC
+Dodge,SRT Tomahawk GTS-R Vision Gran Turismo,4WD,1449 HP,719.4 ft-lb,198.4 in.,88.6 in.,37.4 in.,1462 lbs.,NA
+Dodge,SRT Tomahawk S Vision Gran Turismo,4WD,1006 HP,501.0 ft-lb,198.4 in.,88.6 in.,37.4 in.,2030 lbs.,NA
+Dodge,SRT Tomahawk Vision Gran Turismo (Gr.1),MR,693 HP,439.4 ft-lb,202.4 in.,88.3 in.,38.3 in.,2094 lbs.,NA
+Dodge,SRT Tomahawk X Vision Gran Turismo,4WD,2586 HP,898.5 ft-lb,198.4 in.,88.6 in.,37.4 in.,1651 lbs.,NA
+Dodge,Super Bee '70,FR,335 HP,425.2 ft-lb,210.0 in.,76.7 in.,53.0 in.,3380 lbs.,NA
+Dodge,Viper GTS '02,FR,448 HP,489.6 ft-lb,176.7 in.,75.7 in.,48.0 in.,3459 lbs.,NA
+Dodge,Viper GTS '13,FR,640 HP,600.7 ft-lb,175.7 in.,76.4 in.,49.1 in.,3430 lbs.,NA
+Dodge,Viper Gr.4,FR,428 HP,403.0 ft-lb,182.0 in.,76.1 in.,47.8 in.,3086 lbs.,NA
+Dodge,Viper SRT GT3-R '15,FR,678 HP,640.8 ft-lb,178.7 in.,81.4 in.,45.7 in.,2844 lbs.,NA
+Dodge,Viper SRT10 Coupe '06,FR,508 HP,534.8 ft-lb,175.6 in.,75.2 in.,47.6 in.,3450 lbs.,NA
+Eckert's Rod & Custom,Mach Forty,MR,787 HP,780.2 ft-lb,179.6 in.,78.1 in.,47.1 in.,3501 lbs.,SC
+Enzo,Ferrari '02,MR,658 HP,484.8 ft-lb,185.1 in.,80.1 in.,45.2 in.,2767 lbs.,NA
+FIAT,500 1.2 8V Lounge SS '08,FF,65 HP,75.6 ft-lb,139.6 in.,64.0 in.,59.6 in.,2227 lbs.,NA
+FIAT,500 F '68,RR,16 HP,22.4 ft-lb,116.9 in.,52.0 in.,52.6 in.,1146 lbs.,NA
+FIAT Abarth,595 Esseesse '70,RR,30 HP,32.4 ft-lb,116.9 in.,52.0 in.,52.2 in.,1036 lbs.,NA
+FIAT,Panda 30 CL '85,FF,29 HP,30.2 ft-lb,133.1 in.,58.3 in.,56.9 in.,1433 lbs.,NA
+Ferrari,250 GT Berlinetta passo corto '61,FR,275 HP,221.3 ft-lb,163.4 in.,66.5 in.,49.6 in.,2116 lbs.,NA
+Ferrari,250 GTO '62,FR,295 HP,221.3 ft-lb,170.3 in.,63.0 in.,47.6 in.,1940 lbs.,NA
+Ferrari,296 GT3 '23,MR,599 HP,525.8 ft-lb,179.7 in.,80.7 in.,46.9 in.,2822 lbs.,TC
+Ferrari,296 GTB '22,MR,818 HP,546.1 ft-lb,179.7 in.,77.1 in.,46.7 in.,3241 lbs.,TC
+Ferrari,308 GTB '75,MR,251 HP,216.9 ft-lb,166.5 in.,67.7 in.,44.1 in.,2403 lbs.,NA
+Ferrari,330 P4 '67,MR,448 HP,385.5 ft-lb,164.8 in.,71.3 in.,39.4 in.,1746 lbs.,NA
+Ferrari,365 GTB4 '71,FR,347 HP,318.2 ft-lb,174.2 in.,69.3 in.,49.0 in.,2646 lbs.,NA
+Ferrari,430 Scuderia '07,MR,502 HP,347.1 ft-lb,177.6 in.,75.7 in.,47.2 in.,2976 lbs.,NA
+Ferrari,458 Italia '09,MR,563 HP,398.5 ft-lb,178.2 in.,76.3 in.,47.8 in.,3274 lbs.,NA
+Ferrari,458 Italia GT3 '13,MR,542 HP,405.7 ft-lb,181.1 in.,80.1 in.,45.6 in.,2679 lbs.,NA
+Ferrari,458 Italia Gr.4,MR,374 HP,265.4 ft-lb,179.3 in.,76.3 in.,45.6 in.,2976 lbs.,NA
+Ferrari,500 Mondial Pinin Farina Coupe '54,FR,168 HP,128.1 ft-lb,155.0 in.,64.5 in.,38.0 in.,1587 lbs.,NA
+Ferrari,512 BB '76,MR,354 HP,332.7 ft-lb,173.2 in.,72.0 in.,44.1 in.,3086 lbs.,NA
+Ferrari,812 Superfast '17,FR,788 HP,530.2 ft-lb,183.3 in.,77.6 in.,50.2 in.,3362 lbs.,NA
+Ferrari,Dino 246 GT '71,MR,191 HP,165.6 ft-lb,166.7 in.,66.9 in.,44.7 in.,2381 lbs.,NA
+Ferrari,F12berlinetta '12,FR,730 HP,509.1 ft-lb,181.8 in.,76.5 in.,50.1 in.,3362 lbs.,NA
+Ferrari,F40 '92,MR,471 HP,425.2 ft-lb,171.6 in.,77.6 in.,44.3 in.,2425 lbs.,TC
+Ferrari,F430 '06,MR,495 HP,342.8 ft-lb,177.6 in.,75.7 in.,47.8 in.,3197 lbs.,NA
+Ferrari,F50 '95,MR,511 HP,347.1 ft-lb,176.4 in.,78.2 in.,44.1 in.,2712 lbs.,NA
+Ferrari,F8 Tributo '19,MR,710 HP,568.4 ft-lb,181.5 in.,77.9 in.,47.5 in.,2932 lbs.,TC
+Ferrari,FXX K '14,MR,1034 HP,553.3 ft-lb,192.8 in.,80.7 in.,43.9 in.,2568 lbs.,NA
+Ferrari,GTO '84,MR,393 HP,368.8 ft-lb,168.9 in.,75.2 in.,44.1 in.,2557 lbs.,TC
+Ferrari,La '13,MR,949 HP,516.5 ft-lb,185.1 in.,78.4 in.,43.9 in.,2767 lbs.,NA
+Ferrari,Testarossa '91,MR,384 HP,361.6 ft-lb,176.6 in.,77.8 in.,44.5 in.,3320 lbs.,NA
+Ferrari,Vision Gran Turismo,4WD,1363 HP,664.2 ft-lb,184.6 in.,91.7 in.,41.1 in.,2756 lbs.,TC
+Ford,Escort RS Cosworth '92,4WD,223 HP,219.8 ft-lb,165.8 in.,68.4 in.,56.1 in.,2811 lbs.,TC
+Ford,F-150 SVT Raptor '11,4WD,411 HP,433.9 ft-lb,220.6 in.,86.3 in.,78.5 in.,6005 lbs.,NA
+Ford,Focus Gr.B Rally Car,4WD,538 HP,427.4 ft-lb,173.9 in.,78.7 in.,61.8 in.,2778 lbs.,TC
+Ford,Focus RS '18,4WD,350 HP,352.9 ft-lb,172.8 in.,71.7 in.,58.0 in.,3433 lbs.,TC
+Ford,Focus ST '15,FF,250 HP,269.7 ft-lb,171.7 in.,71.7 in.,58.4 in.,3223 lbs.,TC
+Ford,GT '06,MR,550 HP,500.5 ft-lb,182.8 in.,76.9 in.,44.3 in.,3199 lbs.,SC
+Ford,GT '17,MR,646 HP,549.7 ft-lb,187.5 in.,78.9 in.,43.7 in.,3053 lbs.,TC
+Ford,GT LM Race Car Spec II,MR,606 HP,526.5 ft-lb,181.6 in.,76.8 in.,43.5 in.,2491 lbs.,SC
+Ford,GT LM Spec II Test Car,MR,590 HP,533.7 ft-lb,182.8 in.,76.9 in.,44.3 in.,2568 lbs.,SC
+Ford,GT Race Car '18,MR,527 HP,451.3 ft-lb,187.5 in.,80.5 in.,40.6 in.,2646 lbs.,TC
+Ford,GT40 Mark I '66,MR,354 HP,336.5 ft-lb,165.0 in.,70.0 in.,40.5 in.,2381 lbs.,NA
+Ford,Mark IV Race Car '67,MR,503 HP,470.1 ft-lb,171.0 in.,70.5 in.,38.5 in.,2205 lbs.,NA
+Ford,Mustang Boss 429 '69,FR,374 HP,450.6 ft-lb,187.4 in.,71.8 in.,50.4 in.,3558 lbs.,NA
+Ford,Mustang GT Premium Fastback '15,FR,434 HP,399.9 ft-lb,188.3 in.,75.4 in.,53.7 in.,3706 lbs.,NA
+Ford,Mustang Gr.3,FR,568 HP,442.6 ft-lb,193.8 in.,78.7 in.,50.4 in.,2866 lbs.,NA
+Ford,Mustang Gr.3 Road Car,FR,502 HP,385.5 ft-lb,190.7 in.,78.7 in.,50.4 in.,3307 lbs.,NA
+Ford,Mustang Gr.4,FR,395 HP,370.2 ft-lb,190.3 in.,75.4 in.,52.0 in.,3086 lbs.,NA
+Ford,Mustang Gr.B Rally Car,4WD,549 HP,420.9 ft-lb,191.7 in.,78.7 in.,55.9 in.,3042 lbs.,NA
+Ford,Mustang Mach 1 '71,FR,302 HP,370.3 ft-lb,189.5 in.,74.1 in.,50.1 in.,3560 lbs.,NA
+Ford,Shelby GT350R '16,FR,525 HP,429.6 ft-lb,189.7 in.,75.9 in.,53.6 in.,3655 lbs.,NA
+Ford,Sierra RS 500 Cosworth '87,FR,223 HP,206.8 ft-lb,175.6 in.,68.0 in.,54.2 in.,2661 lbs.,TC
+GReddy,Fugu Z,FR,294 HP,243.0 ft-lb,163.0 in.,71.9 in.,50.6 in.,2425 lbs.,NA
+GT,by Citroën Gr.4,MR,394 HP,283.6 ft-lb,195.2 in.,88.6 in.,47.7 in.,2866 lbs.,NA
+GT,by Citroën Race Car (Gr.3),MR,599 HP,431.0 ft-lb,205.0 in.,83.5 in.,43.9 in.,2646 lbs.,NA
+GT,by Citroën Road Car,MR,500 HP,384.0 ft-lb,195.0 in.,81.7 in.,42.9 in.,3197 lbs.,NA
+Garage RCR,Civic,FF,389 HP,324.0 ft-lb,160.0 in.,66.9 in.,52.0 in.,2235 lbs.,TC
+Genesis,G70 3.3T AWD Prestige Package '22,4WD,366 HP,376.1 ft-lb,184.4 in.,72.8 in.,55.1 in.,4001 lbs.,TC
+Genesis,G70 GR4,4WD,414 HP,389.0 ft-lb,186.2 in.,74.1 in.,54.4 in.,3086 lbs.,TC
+Genesis,X GR3,FR,547 HP,514.1 ft-lb,193.9 in.,78.4 in.,52.4 in.,2822 lbs.,TC
+Genesis,X Gran Berlinetta Vision Gran Turismo Concept,4WD,869 HP,789.8 ft-lb,178.8 in.,74.8 in.,41.3 in.,2337 lbs.,TC+SC
+Genesis,X Gran Racer Vision Gran Turismo Concept,4WD,869 HP,789.8 ft-lb,178.8 in.,74.8 in.,41.3 in.,2401 lbs.,TC+SC
+Gran Turismo,F1500T-A,MR,986 HP,485.8 ft-lb,166.7 in.,84.5 in.,39.5 in.,1190 lbs.,TC
+Gran Turismo,F3500-A,MR,773 HP,299.5 ft-lb,168.7 in.,84.0 in.,38.7 in.,1166 lbs.,NA
+Gran Turismo,F3500-B,MR,719 HP,300.2 ft-lb,168.7 in.,84.0 in.,38.7 in.,1113 lbs.,NA
+Gran Turismo,Racing Kart 125 Shifter,MR,49 HP,18.5 ft-lb,79.9 in.,53.9 in.,21.5 in.,231 lbs.,NA
+Gran Turismo,Red Bull X2014 Junior,MR,246 HP,166.5 ft-lb,173.2 in.,71.8 in.,39.4 in.,1213 lbs.,NA
+Gran Turismo,Red Bull X2014 Standard,MR,798 HP,280.4 ft-lb,200.7 in.,85.2 in.,39.4 in.,1433 lbs.,TC
+Gran Turismo,Red Bull X2019 Competition,MR,804 HP,243.3 ft-lb,200.7 in.,85.2 in.,39.4 in.,1433 lbs.,NA
+Greening Auto Company,Maverick,FR,1199 HP,899.7 ft-lb,180.3 in.,75.4 in.,50.8 in.,3600 lbs.,TC
+HYUNDAI,N 2025 Vision Gran Turismo,4WD,870 HP,- ft-lb,184.2 in.,89.2 in.,36.7 in.,2143 lbs.,EV
+HYUNDAI,N 2025 Vision Gran Turismo (Gr.1),4WD,640 HP,444.3 ft-lb,184.2 in.,89.2 in.,36.7 in.,2143 lbs.,NA
+Honda,Beat '91,MR,63 HP,44.0 ft-lb,129.7 in.,54.9 in.,46.3 in.,1675 lbs.,NA
+Honda,CR-V e:HEV EX・Black Edition '21,4WD,181 HP,232.4 ft-lb,181.3 in.,73.0 in.,66.5 in.,3748 lbs.,NA
+Honda,Civic Si Extra (EF) '87,FF,128 HP,106.3 ft-lb,156.1 in.,66.1 in.,52.6 in.,2006 lbs.,NA
+Honda,Civic SiR･II (EG) '93,FF,167 HP,115.7 ft-lb,160.2 in.,66.7 in.,53.1 in.,2359 lbs.,NA
+Honda,Civic Type R (EK) '97,FF,176 HP,117.1 ft-lb,164.6 in.,66.7 in.,53.5 in.,2315 lbs.,NA
+Honda,Civic Type R (EK) '98,FF,181 HP,119.4 ft-lb,164.8 in.,66.7 in.,53.5 in.,2315 lbs.,NA
+Honda,Civic Type R (EK) Touring Car,FF,247 HP,148.7 ft-lb,164.6 in.,66.7 in.,51.4 in.,1863 lbs.,NA
+Honda,Civic Type R (FK2) '15,FF,305 HP,295.0 ft-lb,172.8 in.,74.0 in.,57.5 in.,3042 lbs.,TC
+Honda,Civic Type R (FL5) '22,FF,325 HP,309.5 ft-lb,180.9 in.,74.4 in.,55.3 in.,3153 lbs.,TC
+Honda,Civic Type R Limited Edition (FK8) '20,FF,315 HP,295.0 ft-lb,179.5 in.,73.8 in.,56.5 in.,3020 lbs.,TC
+Honda,Fit Hybrid '14,FF,138 HP,98.8 ft-lb,155.7 in.,66.7 in.,60.0 in.,2381 lbs.,NA
+Honda,Integra Type R (DC2) '95,FF,197 HP,133.8 ft-lb,172.4 in.,66.7 in.,52.0 in.,2337 lbs.,NA
+Honda,Integra Type R (DC2) '98,FF,198 HP,137.6 ft-lb,172.4 in.,66.7 in.,52.4 in.,2381 lbs.,NA
+Honda,N-ONE RS '22,FF,63 HP,76.9 ft-lb,133.7 in.,58.1 in.,60.8 in.,1852 lbs.,TC
+Honda,NSX '17,4WD,570 HP,405.9 ft-lb,176.8 in.,76.4 in.,47.8 in.,3924 lbs.,TC
+Honda,NSX CONCEPT-GT '16,MR,603 HP,452.0 ft-lb,184.1 in.,76.8 in.,47.6 in.,2313 lbs.,TC
+Honda,NSX GT500 '00,MR,481 HP,335.3 ft-lb,174.4 in.,75.2 in.,42.9 in.,2535 lbs.,NA
+Honda,NSX GT500 '08,MR,518 HP,434.4 ft-lb,181.5 in.,78.7 in.,43.3 in.,2535 lbs.,NA
+Honda,NSX Gr.3,MR,568 HP,431.0 ft-lb,181.6 in.,80.2 in.,46.0 in.,2866 lbs.,TC
+Honda,NSX Gr.4,MR,394 HP,320.2 ft-lb,182.9 in.,87.4 in.,43.5 in.,2998 lbs.,TC
+Honda,NSX Gr.B Rally Car,4WD,557 HP,422.5 ft-lb,177.5 in.,87.4 in.,47.9 in.,2866 lbs.,TC
+Honda,NSX Type R '02,MR,290 HP,236.8 ft-lb,174.4 in.,71.3 in.,45.7 in.,2800 lbs.,NA
+Honda,NSX Type R '92,MR,284 HP,225.6 ft-lb,174.4 in.,71.3 in.,45.7 in.,2712 lbs.,NA
+Honda,Project 2&4 powered by RC213V,MR,211 HP,87.3 ft-lb,118.9 in.,71.7 in.,39.2 in.,893 lbs.,NA
+Honda,RA272 '65,MR,228 HP,104.8 ft-lb,155.5 in.,65.9 in.,31.2 in.,1098 lbs.,NA
+Honda,S2000 '99,FR,242 HP,160.5 ft-lb,162.8 in.,68.9 in.,50.6 in.,2734 lbs.,NA
+Honda,S660 '15,MR,63 HP,77.2 ft-lb,133.7 in.,58.1 in.,46.5 in.,1830 lbs.,TC
+Honda,S800 '66,FR,68 HP,48.4 ft-lb,131.3 in.,55.1 in.,47.8 in.,1587 lbs.,NA
+Honda,Sports Vision Gran Turismo,MR,403 HP,295.2 ft-lb,167.3 in.,72.6 in.,47.0 in.,1982 lbs.,TC
+Hyundai,ELANTRA N '23,FF,276 HP,289.3 ft-lb,184.1 in.,71.9 in.,55.7 in.,3197 lbs.,TC
+Hyundai,ELANTRA N TC '24,FF,350 HP,332.1 ft-lb,185.4 in.,76.8 in.,55.7 in.,2789 lbs.,TC
+Hyundai,Genesis Coupe 3.8 Track '13,FR,343 HP,291.9 ft-lb,182.3 in.,73.4 in.,54.5 in.,3433 lbs.,NA
+Hyundai,Genesis Gr.3,FR,575 HP,400.1 ft-lb,194.7 in.,79.4 in.,50.5 in.,2756 lbs.,NA
+Hyundai,Genesis Gr.4,FR,384 HP,303.6 ft-lb,186.4 in.,73.4 in.,52.9 in.,2976 lbs.,NA
+Hyundai,Genesis Gr.B Rally Car,4WD,499 HP,342.6 ft-lb,189.2 in.,81.9 in.,56.1 in.,2756 lbs.,NA
+Hyundai,IONIQ 5 N '24,4WD,641 HP,- ft-lb,185.6 in.,76.4 in.,62.4 in.,4872 lbs.,EV
+INFINITI,CONCEPT Vision Gran Turismo,FR,535 HP,376.1 ft-lb,195.4 in.,80.7 in.,44.9 in.,3704 lbs.,NA
+IsoRivolta,Zagato Vision Gran Turismo,FR,559 HP,428.0 ft-lb,172.8 in.,79.1 in.,43.1 in.,2535 lbs.,NA
+Italdesign,EXENEO Vision Gran Turismo Off-road Mode,4WD,1219 HP,413.2 ft-lb,181.1 in.,82.7 in.,53.1 in.,2205 lbs.,NA
+Italdesign,EXENEO Vision Gran Turismo Street Mode,4WD,1219 HP,413.2 ft-lb,181.1 in.,82.7 in.,47.2 in.,2205 lbs.,NA
+Jaguar,D-type '54,FR,249 HP,240.1 ft-lb,154.0 in.,65.4 in.,46.1 in.,1874 lbs.,NA
+Jaguar,E-type Coupé '61,FR,264 HP,260.3 ft-lb,175.4 in.,65.2 in.,48.1 in.,2866 lbs.,NA
+Jaguar,F-type Gr.3,FR,552 HP,501.2 ft-lb,184.0 in.,78.3 in.,47.9 in.,2756 lbs.,SC
+Jaguar,F-type Gr.4,FR,399 HP,369.8 ft-lb,181.5 in.,75.8 in.,49.6 in.,2976 lbs.,SC
+Jaguar,F-type R Coupé '14,FR,542 HP,501.2 ft-lb,176.0 in.,75.8 in.,51.7 in.,3638 lbs.,SC
+Jaguar,Vision Gran Turismo Coupé,4WD,1004 HP,- ft-lb,184.2 in.,87.3 in.,40.7 in.,3086 lbs.,EV
+Jaguar,Vision Gran Turismo Roadster,4WD,1004 HP,- ft-lb,184.2 in.,87.3 in.,40.7 in.,3086 lbs.,EV
+Jaguar,Vision Gran Turismo SV,4WD,1876 HP,- ft-lb,218.1 in.,87.3 in.,42.6 in.,3086 lbs.,EV
+Jaguar,XJ13 '66,MR,510 HP,386.2 ft-lb,176.5 in.,73.0 in.,38.0 in.,2200 lbs.,NA
+Jaguar,XJ220 '92,MR,515 HP,473.0 ft-lb,191.3 in.,78.7 in.,45.3 in.,3025 lbs.,TC
+Jaguar,XJR-9 '88,MR,749 HP,575.8 ft-lb,189.0 in.,78.7 in.,40.6 in.,1971 lbs.,NA
+Jeep,Willys MB '45,4WD,60 HP,104.8 ft-lb,132.3 in.,62.0 in.,71.7 in.,2454 lbs.,NA
+KTM,X-BOW R '12,MR,298 HP,295.2 ft-lb,147.2 in.,75.6 in.,47.4 in.,1742 lbs.,TC
+LEXUS,"LF-LC GT ""Vision Gran Turismo""",FR,612 HP,339.9 ft-lb,198.4 in.,82.8 in.,47.9 in.,2370 lbs.,TC
+Lambo,V12 Vision Gran Turismo,4WD,774 HP,531.6 ft-lb,186.2 in.,83.3 in.,37.8 in.,1806 lbs.,NA
+Lamborghini,Aventador LP 700-4 '11,4WD,690 HP,509.1 ft-lb,188.2 in.,79.9 in.,44.7 in.,3472 lbs.,NA
+Lamborghini,Aventador LP 750-4 Superveloce '15,4WD,739 HP,509.1 ft-lb,190.4 in.,79.9 in.,44.7 in.,3362 lbs.,NA
+Lamborghini,Countach 25th Anniversary '88,MR,449 HP,363.0 ft-lb,163.0 in.,78.7 in.,42.1 in.,3285 lbs.,NA
+Lamborghini,Countach LP400 '74,MR,373 HP,266.0 ft-lb,163.0 in.,74.4 in.,42.1 in.,2348 lbs.,NA
+Lamborghini,Diablo GT '00,MR,571 HP,465.0 ft-lb,174.4 in.,80.3 in.,43.9 in.,3285 lbs.,NA
+Lamborghini,Gallardo LP 560-4 '08,4WD,552 HP,398.5 ft-lb,171.1 in.,74.8 in.,45.9 in.,3108 lbs.,NA
+Lamborghini,Huracán GT3 '15,MR,576 HP,428.1 ft-lb,175.5 in.,80.7 in.,44.5 in.,2712 lbs.,NA
+Lamborghini,Huracán Gr.4,4WD,404 HP,278.1 ft-lb,179.1 in.,76.5 in.,45.1 in.,3009 lbs.,NA
+Lamborghini,Huracán LP 610-4 '15,4WD,601 HP,413.2 ft-lb,175.6 in.,75.7 in.,45.9 in.,3135 lbs.,NA
+Lamborghini,Miura P400 Bertone Prototype '67,MR,349 HP,271.9 ft-lb,171.7 in.,69.3 in.,41.3 in.,2161 lbs.,NA
+Lamborghini,Murciélago LP 640 '09,4WD,631 HP,487.0 ft-lb,181.5 in.,81.0 in.,44.7 in.,3671 lbs.,NA
+Lamborghini,Urus '18,4WD,641 HP,627.1 ft-lb,201.3 in.,79.4 in.,64.5 in.,4844 lbs.,TC
+Lamborghini,Veneno '14,4WD,739 HP,531.6 ft-lb,197.6 in.,81.7 in.,46.1 in.,3197 lbs.,NA
+Lancia,Delta HF Integrale Evoluzione '91,4WD,209 HP,224.2 ft-lb,153.5 in.,69.7 in.,53.7 in.,2976 lbs.,TC
+Lancia,Delta HF Integrale Rally Car '92,4WD,330 HP,356.7 ft-lb,153.5 in.,69.7 in.,53.5 in.,2425 lbs.,TC
+Lancia,Stratos '73,MR,185 HP,166.3 ft-lb,146.1 in.,68.9 in.,43.9 in.,2161 lbs.,NA
+Lexus,LC500 '17,FR,469 HP,398.5 ft-lb,187.8 in.,75.6 in.,53.0 in.,4277 lbs.,NA
+Lexus,LFA '10,FR,552 HP,353.6 ft-lb,177.4 in.,74.6 in.,48.0 in.,3263 lbs.,NA
+Lexus,RC F '14,FR,469 HP,390.5 ft-lb,185.2 in.,72.8 in.,54.7 in.,3946 lbs.,NA
+Lexus,RC F GT3 '17,FR,535 HP,454.2 ft-lb,190.8 in.,79.9 in.,51.6 in.,2866 lbs.,NA
+Lexus,RC F GT3 prototype '16,FR,527 HP,448.4 ft-lb,192.9 in.,80.3 in.,51.6 in.,2866 lbs.,NA
+Lexus,RC F GT500 '16,FR,614 HP,434.3 ft-lb,200.8 in.,76.8 in.,48.3 in.,2249 lbs.,TC
+Lexus,RC F Gr.4,FR,419 HP,348.4 ft-lb,187.4 in.,72.8 in.,53.1 in.,3086 lbs.,NA
+Lexus,SC430 GT500 '08,FR,516 HP,431.6 ft-lb,185.0 in.,75.8 in.,47.2 in.,2425 lbs.,NA
+MAZDA,RX-VISION GT3 CONCEPT,FR,562 HP,397.8 ft-lb,180.7 in.,81.7 in.,44.1 in.,2756 lbs.,NA
+MAZDA,SPIRIT RACING ROADSTER 12R '25,FR,197 HP,159.1 ft-lb,154.1 in.,68.3 in.,49.0 in.,2315 lbs.,NA
+MAZDA3,Gr.4,FF,380 HP,319.6 ft-lb,176.0 in.,77.0 in.,54.3 in.,2646 lbs.,TC
+MAZDA3,X Burgundy Selection '19,4WD,177 HP,164.9 ft-lb,175.6 in.,70.7 in.,56.7 in.,3263 lbs.,NA
+MINI,Clubman Vision Gran Turismo,4WD,388 HP,315.4 ft-lb,172.8 in.,75.6 in.,54.7 in.,2315 lbs.,TC
+MINI,Cooper S '05,FF,167 HP,162.3 ft-lb,143.9 in.,66.5 in.,57.3 in.,2601 lbs.,SC
+Maserati,A6GCS/53 Spyder '54,FR,166 HP,143.2 ft-lb,151.2 in.,60.2 in.,55.1 in.,1631 lbs.,NA
+Maserati,GranTurismo S '08,FR,439 HP,361.6 ft-lb,192.2 in.,75.4 in.,53.3 in.,3924 lbs.,NA
+Maserati,MC20 '20,MR,621 HP,538.8 ft-lb,183.8 in.,77.4 in.,48.2 in.,3307 lbs.,TC
+Maserati,Merak SS '80,MR,216 HP,198.9 ft-lb,170.5 in.,69.6 in.,44.6 in.,3131 lbs.,NA
+Mazda,787B '91,MR,690 HP,448.4 ft-lb,188.3 in.,78.5 in.,39.5 in.,1830 lbs.,NA
+Mazda,Atenza Gr.3,FR,567 HP,419.7 ft-lb,200.0 in.,80.7 in.,54.3 in.,2822 lbs.,TC
+Mazda,Atenza Gr.3 Road Car,FR,483 HP,339.7 ft-lb,196.5 in.,80.7 in.,54.3 in.,3197 lbs.,TC
+Mazda,Atenza Gr.4,4WD,393 HP,316.5 ft-lb,196.5 in.,72.4 in.,53.9 in.,3042 lbs.,TC
+Mazda,Atenza Sedan XD L Package '15,4WD,172 HP,309.5 ft-lb,191.5 in.,72.4 in.,57.1 in.,3527 lbs.,TC
+Mazda,CX-30 X Smart Edition '21,FF,187 HP,177.2 ft-lb,173.0 in.,70.7 in.,60.6 in.,3285 lbs.,NA
+Mazda,Demio XD Touring '15,FF,103 HP,162.0 ft-lb,159.8 in.,66.7 in.,59.1 in.,2381 lbs.,TC
+Mazda,Eunos Roadster (NA Special Package) '89,FR,117 HP,101.2 ft-lb,156.3 in.,65.9 in.,48.6 in.,2072 lbs.,NA
+Mazda,LM55 Vision Gran Turismo,4WD,- HP,- ft-lb,- in.,- in.,- in.,- lbs.,NA
+Mazda,LM55 Vision Gran Turismo (Gr.1),4WD,641 HP,416.6 ft-lb,187.0 in.,80.1 in.,33.9 in.,1940 lbs.,NA
+Mazda,RX-7 GT-X (FC) '90,FR,203 HP,198.9 ft-lb,170.7 in.,66.5 in.,50.0 in.,2756 lbs.,TC
+Mazda,RX-7 Spirit R Type A (FD) '02,FR,292 HP,245.3 ft-lb,168.7 in.,69.3 in.,48.4 in.,2800 lbs.,TC
+Mazda,RX-8 Spirit R '12,FR,230 HP,159.1 ft-lb,176.0 in.,69.7 in.,52.8 in.,2976 lbs.,NA
+Mazda,RX-VISION '15,FR,517 HP,360.8 ft-lb,172.8 in.,75.8 in.,45.7 in.,2844 lbs.,NA
+Mazda,RX500 '70,MR,247 HP,170.6 ft-lb,170.5 in.,67.7 in.,41.9 in.,1874 lbs.,NA
+Mazda,Roadster NR-A (ND) '22,FR,130 HP,113.8 ft-lb,154.1 in.,68.3 in.,48.6 in.,2227 lbs.,NA
+Mazda,Roadster S (ND) '15,FR,128 HP,110.6 ft-lb,154.1 in.,68.3 in.,48.6 in.,2183 lbs.,NA
+Mazda,Roadster Touring Car,FR,205 HP,148.9 ft-lb,156.2 in.,70.2 in.,46.8 in.,1753 lbs.,NA
+Mazda,ɛ̃fini RX-7 Type R (FD) '91,FR,251 HP,216.9 ft-lb,168.5 in.,69.3 in.,48.4 in.,2778 lbs.,TC
+McLaren,650S Coupe '14,MR,641 HP,500.5 ft-lb,177.6 in.,75.1 in.,47.2 in.,2932 lbs.,TC
+McLaren,650S GT3 '15,MR,542 HP,412.9 ft-lb,178.5 in.,80.3 in.,47.2 in.,2734 lbs.,TC
+McLaren,650S Gr.4,MR,399 HP,312.3 ft-lb,180.1 in.,75.1 in.,45.7 in.,2866 lbs.,TC
+McLaren,F1 '94,MR,626 HP,480.2 ft-lb,168.8 in.,71.7 in.,44.9 in.,2513 lbs.,NA
+McLaren,F1 GTR - BMW '95,MR,600 HP,480.4 ft-lb,169.0 in.,71.7 in.,44.9 in.,2315 lbs.,NA
+McLaren,MP4-12C '10,MR,600 HP,465.0 ft-lb,177.5 in.,75.1 in.,47.2 in.,2976 lbs.,TC
+McLaren,MP4/4 '88,MR,675 HP,313.1 ft-lb,173.0 in.,84.0 in.,37.0 in.,1190 lbs.,TC
+McLaren,P1 GTR '16,MR,986 HP,607.5 ft-lb,180.6 in.,76.6 in.,44.8 in.,2965 lbs.,TC
+McLaren,Ultimate Vision Gran Turismo,MR,1134 HP,627.8 ft-lb,168.8 in.,76.8 in.,38.9 in.,1984 lbs.,TC
+McLaren,Ultimate Vision Gran Turismo (Gr.1),MR,813 HP,488.3 ft-lb,168.8 in.,76.8 in.,38.9 in.,1984 lbs.,TC
+Mercedes-AMG,C 63 S '15,FR,503 HP,516.4 ft-lb,187.0 in.,73.9 in.,55.2 in.,3803 lbs.,TC
+Mercedes-AMG,GT Black Series '20,FR,719 HP,590.1 ft-lb,181.3 in.,81.7 in.,50.4 in.,3395 lbs.,TC
+Mercedes-AMG,GT R '17,FR,576 HP,516.4 ft-lb,179.1 in.,78.9 in.,50.6 in.,3660 lbs.,TC
+Mercedes-AMG,GT S '15,FR,502 HP,478.8 ft-lb,179.1 in.,76.4 in.,50.8 in.,3461 lbs.,TC
+Mercedes-AMG,GT Safety Car,FR,502 HP,478.8 ft-lb,179.1 in.,76.4 in.,50.8 in.,3461 lbs.,TC
+Mercedes-AMG,GT3 '16,FR,614 HP,531.1 ft-lb,179.9 in.,80.7 in.,49.2 in.,2921 lbs.,NA
+Mercedes-AMG,GT3 '20,FR,614 HP,531.1 ft-lb,186.9 in.,80.7 in.,48.7 in.,2833 lbs.,NA
+Mercedes-Benz,190 E 2.5-16 Evolution II '91,FR,231 HP,180.8 ft-lb,178.9 in.,67.7 in.,52.8 in.,2954 lbs.,NA
+Mercedes-Benz,300 SEL 6.8 AMG '71,FR,422 HP,443.0 ft-lb,196.9 in.,71.3 in.,52.0 in.,3605 lbs.,NA
+Mercedes-Benz,300 SL (W194) '52,FR,178 HP,207.7 ft-lb,166.1 in.,70.5 in.,49.8 in.,2381 lbs.,NA
+Mercedes-Benz,300 SL Coupé '54,FR,212 HP,202.5 ft-lb,178.0 in.,70.5 in.,51.2 in.,2855 lbs.,NA
+Mercedes-Benz,A 45 AMG 4MATIC '13,4WD,355 HP,331.9 ft-lb,171.6 in.,70.1 in.,55.8 in.,3428 lbs.,TC
+Mercedes-Benz,AMG Vision Gran Turismo,FR,576 HP,590.4 ft-lb,189.8 in.,78.7 in.,43.7 in.,3053 lbs.,TC
+Mercedes-Benz,AMG Vision Gran Turismo Racing Series,FR,590 HP,604.1 ft-lb,189.8 in.,78.7 in.,43.7 in.,2866 lbs.,TC
+Mercedes-Benz,CLK-LM '98,MR,599 HP,397.8 ft-lb,192.9 in.,78.7 in.,44.4 in.,2072 lbs.,NA
+Mercedes-Benz,S Barker Tourer '29,FR,177 HP,318.9 ft-lb,185.0 in.,66.9 in.,63.0 in.,2800 lbs.,SC
+Mercedes-Benz,SLR McLaren '09,FR,616 HP,575.6 ft-lb,183.3 in.,75.1 in.,49.6 in.,3898 lbs.,SC
+Mercedes-Benz,SLS AMG '10,FR,570 HP,479.7 ft-lb,182.6 in.,76.3 in.,49.7 in.,3571 lbs.,NA
+Mercedes-Benz,SLS AMG GT3 '11,FR,614 HP,531.1 ft-lb,185.4 in.,78.3 in.,47.0 in.,2976 lbs.,NA
+Mercedes-Benz,SLS AMG Gr.4,FR,419 HP,352.6 ft-lb,182.6 in.,76.3 in.,49.7 in.,3120 lbs.,NA
+Mercedes-Benz,Unimog Type 411 '62,4WD,29 HP,74.4 ft-lb,149.6 in.,65.7 in.,84.3 in.,4277 lbs.,NA
+Mercedes-Benz,W 196 R '55,FR,289 HP,182.2 ft-lb,158.5 in.,64.0 in.,40.9 in.,1841 lbs.,NA
+Mine's,BNR34 GT-R N1 base,4WD,621 HP,463.4 ft-lb,181.1 in.,70.3 in.,50.8 in.,2976 lbs.,TC
+Mini-Cooper,'S' '65,FF,64 HP,54.9 ft-lb,120.2 in.,55.5 in.,53.0 in.,1334 lbs.,NA
+Mitsubishi,Concept XR-PHEV EVOLUTION Vision Gran Turismo,4WD,502 HP,748.6 ft-lb,175.7 in.,89.1 in.,53.2 in.,2976 lbs.,TC
+Mitsubishi,FTO GP Version R '97,FF,197 HP,147.9 ft-lb,171.9 in.,68.3 in.,51.2 in.,2535 lbs.,NA
+Mitsubishi,GTO Twin Turbo '91,4WD,285 HP,307.3 ft-lb,179.3 in.,72.4 in.,50.6 in.,3748 lbs.,TC
+Mitsubishi,Lancer Evolution Final Edition '15,4WD,309 HP,316.0 ft-lb,177.0 in.,71.3 in.,58.3 in.,3373 lbs.,TC
+Mitsubishi,Lancer Evolution Final Edition Gr.3,FR,610 HP,481.9 ft-lb,185.5 in.,80.5 in.,52.6 in.,2844 lbs.,TC
+Mitsubishi,Lancer Evolution Final Edition Gr.4,4WD,389 HP,341.4 ft-lb,179.5 in.,71.3 in.,56.2 in.,2932 lbs.,TC
+Mitsubishi,Lancer Evolution Final Edition Gr.B Rally Car,4WD,521 HP,457.1 ft-lb,183.1 in.,80.5 in.,57.0 in.,2844 lbs.,TC
+Mitsubishi,Lancer Evolution Final Edition Gr.B Road Car,4WD,473 HP,414.5 ft-lb,182.2 in.,80.5 in.,53.1 in.,3142 lbs.,TC
+Mitsubishi,Lancer Evolution III GSR '95,4WD,264 HP,227.8 ft-lb,169.7 in.,66.7 in.,55.9 in.,2778 lbs.,TC
+Mitsubishi,Lancer Evolution IV GSR '96,4WD,273 HP,260.3 ft-lb,170.5 in.,66.5 in.,55.7 in.,2976 lbs.,TC
+Mitsubishi,Lancer Evolution IX MR GSR '06,4WD,277 HP,295.2 ft-lb,176.8 in.,69.7 in.,56.7 in.,3131 lbs.,TC
+Mitsubishi,Lancer Evolution V GSR '98,4WD,306 HP,305.8 ft-lb,171.3 in.,69.7 in.,55.7 in.,2998 lbs.,TC
+Mitsubishi,Lancer Evolution VI GSR T.M. EDITION Special Color Package '99,4WD,311 HP,305.0 ft-lb,171.3 in.,69.7 in.,55.3 in.,2998 lbs.,TC
+Mitsubishi,Lancer Evolution VIII MR GSR '04,4WD,276 HP,295.2 ft-lb,176.8 in.,69.7 in.,57.1 in.,3086 lbs.,TC
+NISMO,400R '95,4WD,394 HP,345.7 ft-lb,184.1 in.,72.0 in.,52.4 in.,3417 lbs.,TC
+NISMO,R34 GT-R Z-tune '05,4WD,493 HP,397.8 ft-lb,181.1 in.,71.3 in.,52.4 in.,3527 lbs.,TC
+NISSAN,CONCEPT 2020 Vision Gran Turismo,4WD,- HP,- ft-lb,- in.,- in.,- in.,- lbs.,TC
+Nissan,180SX Type X '96,FR,203 HP,202.5 ft-lb,178.0 in.,66.7 in.,50.8 in.,2690 lbs.,TC
+Nissan,Fairlady 240ZG (HS30) '71,FR,147 HP,151.8 ft-lb,169.5 in.,66.5 in.,50.6 in.,2227 lbs.,NA
+Nissan,Fairlady Z (Z34) '08,FR,331 HP,269.3 ft-lb,167.3 in.,72.6 in.,51.8 in.,3373 lbs.,NA
+Nissan,Fairlady Z 300ZX TwinTurbo 2seater (Z32) '89,FR,276 HP,286.4 ft-lb,169.7 in.,70.5 in.,49.2 in.,3329 lbs.,TC
+Nissan,Fairlady Z 432 '69,FR,157 HP,130.1 ft-lb,162.0 in.,64.2 in.,50.8 in.,2293 lbs.,NA
+Nissan,Fairlady Z Version S (Z33) '07,FR,310 HP,264.4 ft-lb,169.9 in.,71.5 in.,51.8 in.,3263 lbs.,NA
+Nissan,GT-R GT500 '08,FR,527 HP,406.2 ft-lb,189.0 in.,78.7 in.,43.3 in.,2425 lbs.,NA
+Nissan,GT-R GT500 '99,FR,498 HP,520.7 ft-lb,181.1 in.,74.2 in.,48.0 in.,2646 lbs.,TC
+Nissan,GT-R Gr.4,4WD,428 HP,368.8 ft-lb,188.2 in.,74.6 in.,52.8 in.,3197 lbs.,TC
+Nissan,GT-R Gr.B Rally Car,4WD,542 HP,466.5 ft-lb,188.2 in.,80.2 in.,53.1 in.,2976 lbs.,TC
+Nissan,GT-R LM NISMO '15,4WD,604 HP,691.2 ft-lb,183.1 in.,74.6 in.,41.3 in.,1940 lbs.,TC
+Nissan,GT-R NISMO '17,4WD,591 HP,480.9 ft-lb,184.6 in.,74.6 in.,53.9 in.,3836 lbs.,TC
+Nissan,GT-R NISMO (R32) '90,4WD,306 HP,289.0 ft-lb,178.9 in.,69.1 in.,52.8 in.,3086 lbs.,TC
+Nissan,GT-R NISMO GT3 '13,FR,591 HP,506.3 ft-lb,188.2 in.,80.2 in.,53.1 in.,2866 lbs.,TC
+Nissan,GT-R NISMO GT3 '18,FR,576 HP,488.2 ft-lb,190.2 in.,80.2 in.,53.1 in.,2833 lbs.,TC
+Nissan,GT-R NISMO GT500 '16,FR,612 HP,434.0 ft-lb,188.0 in.,76.8 in.,46.9 in.,2249 lbs.,TC
+Nissan,GT-R Premium edition '17,4WD,564 HP,466.5 ft-lb,185.4 in.,74.6 in.,53.9 in.,3902 lbs.,TC
+Nissan,GT-R Premium edition T-spec '24,4WD,562 HP,470.1 ft-lb,185.4 in.,74.6 in.,53.9 in.,3880 lbs.,TC
+Nissan,GT-R Safety Car,4WD,564 HP,466.5 ft-lb,185.4 in.,74.6 in.,53.9 in.,3836 lbs.,TC
+Nissan,Qashqai Tekna 190 2wd e-Power '22,FF,187 HP,- ft-lb,174.2 in.,72.2 in.,64.0 in.,3580 lbs.,TC
+Nissan,R92CP '92,MR,788 HP,578.6 ft-lb,189.0 in.,78.3 in.,43.3 in.,1984 lbs.,TC
+Nissan,Sileighty '98,FR,203 HP,202.5 ft-lb,176.0 in.,66.5 in.,50.8 in.,2579 lbs.,TC
+Nissan,Silvia K's Aero (S14) '96,FR,216 HP,202.5 ft-lb,178.0 in.,68.1 in.,51.0 in.,2756 lbs.,TC
+Nissan,Silvia K's Dia Selection (S13) '90,FR,171 HP,166.3 ft-lb,176.0 in.,66.5 in.,50.8 in.,2513 lbs.,TC
+Nissan,Silvia K's Type S (S14) '94,FR,216 HP,202.5 ft-lb,177.2 in.,68.1 in.,51.0 in.,2690 lbs.,TC
+Nissan,Silvia Q's (S13) '88,FR,132 HP,117.1 ft-lb,176.0 in.,66.5 in.,50.8 in.,2403 lbs.,NA
+Nissan,Silvia spec-R Aero (S15) '02,FR,246 HP,202.5 ft-lb,175.0 in.,66.7 in.,50.6 in.,2734 lbs.,TC
+Nissan,Silvia spec-R Aero (S15) Touring Car,FR,355 HP,259.2 ft-lb,175.0 in.,66.7 in.,50.6 in.,2205 lbs.,TC
+Nissan,Skyline 2000GT-R (KPGC110) '73,FR,157 HP,130.1 ft-lb,175.6 in.,66.7 in.,54.3 in.,2524 lbs.,NA
+Nissan,Skyline GT-R V･spec (R33) '97,4WD,319 HP,314.6 ft-lb,184.1 in.,70.1 in.,53.5 in.,3395 lbs.,TC
+Nissan,Skyline GT-R V･spec II (R32) '94,4WD,306 HP,289.0 ft-lb,178.9 in.,69.1 in.,52.8 in.,3307 lbs.,TC
+Nissan,Skyline GT-R V･spec II Nür (R34) '02,4WD,336 HP,346.3 ft-lb,181.1 in.,70.3 in.,53.5 in.,3439 lbs.,TC
+Nissan,Skyline GTS-R (R31) '87,FR,207 HP,180.8 ft-lb,183.5 in.,66.5 in.,53.7 in.,2954 lbs.,TC
+Nissan,Skyline Hard Top 2000GT-R (KPGC10) '70,FR,157 HP,130.1 ft-lb,170.5 in.,65.6 in.,53.9 in.,2425 lbs.,NA
+Nissan,Skyline Super Silhouette Group 5 '84,FR,561 HP,397.8 ft-lb,199.4 in.,78.0 in.,48.8 in.,2216 lbs.,TC
+Nissan,Z Performance '23,FR,399 HP,350.7 ft-lb,172.4 in.,72.6 in.,51.8 in.,3402 lbs.,TC
+Opel,Corsa GSE Vision Gran Turismo,4WD,788 HP,- ft-lb,165.0 in.,78.9 in.,55.1 in.,2579 lbs.,EV
+PEUGEOT,Vision Gran Turismo,4WD,873 HP,622.0 ft-lb,182.7 in.,89.8 in.,40.9 in.,1929 lbs.,TC
+PEUGEOT,Vision Gran Turismo (Gr.3),MR,542 HP,409.3 ft-lb,188.5 in.,86.8 in.,38.1 in.,2756 lbs.,TC
+Pagani,Huayra '13,MR,730 HP,811.8 ft-lb,181.3 in.,80.2 in.,46.0 in.,2976 lbs.,TC
+Pagani,Zonda R '09,MR,737 HP,524.0 ft-lb,192.4 in.,79.3 in.,44.9 in.,2359 lbs.,NA
+Peugeot,205 GTI '88,FF,128 HP,121.8 ft-lb,145.9 in.,62.6 in.,53.3 in.,1929 lbs.,NA
+Peugeot,205 Turbo 16 Evolution 2 '86,4WD,448 HP,361.6 ft-lb,150.4 in.,66.9 in.,53.3 in.,2006 lbs.,TC
+Peugeot,208 GTi by Sport '14,FF,204 HP,221.3 ft-lb,156.5 in.,68.5 in.,57.5 in.,2646 lbs.,TC
+Peugeot,908 HDi FAP '10,MR,700 HP,885.6 ft-lb,181.5 in.,78.7 in.,40.6 in.,2050 lbs.,TC
+Peugeot,"L500R HYbrid Vision Gran Turismo, 2017",4WD,509 HP,250.9 ft-lb,194.3 in.,78.7 in.,39.5 in.,2205 lbs.,TC
+Peugeot,"L750R HYbrid Vision Gran Turismo, 2017",4WD,693 HP,647.5 ft-lb,198.6 in.,78.7 in.,41.5 in.,1819 lbs.,TC
+Peugeot,RCZ GT Line '15,FF,152 HP,177.2 ft-lb,168.9 in.,72.6 in.,53.5 in.,2976 lbs.,TC
+Peugeot,RCZ Gr.3,MR,520 HP,405.7 ft-lb,187.0 in.,80.8 in.,52.1 in.,2646 lbs.,TC
+Peugeot,RCZ Gr.3 Road Car,MR,468 HP,366.9 ft-lb,187.0 in.,80.8 in.,52.1 in.,3086 lbs.,TC
+Peugeot,RCZ Gr.4,FF,345 HP,289.6 ft-lb,169.4 in.,73.5 in.,52.5 in.,2701 lbs.,TC
+Peugeot,RCZ Gr.B Rally Car,4WD,516 HP,405.0 ft-lb,191.5 in.,80.8 in.,56.0 in.,2646 lbs.,TC
+Peugeot,SUV 2008 Allure '21,FF,129 HP,169.9 ft-lb,169.3 in.,69.7 in.,61.0 in.,2628 lbs.,TC
+Plymouth,Superbird '70,FR,425 HP,490.3 ft-lb,220.0 in.,76.4 in.,61.4 in.,3869 lbs.,NA
+Plymouth,XNR Ghia Roadster '60,FR,250 HP,199.9 ft-lb,193.0 in.,73.0 in.,43.0 in.,3307 lbs.,NA
+Polestar,5 Performance '26,4WD,871 HP,- ft-lb,200.3 in.,77.9 in.,56.1 in.,5518 lbs.,EV
+Pontiac,Firebird Trans Am '78,FR,219 HP,321.0 ft-lb,196.8 in.,73.4 in.,49.5 in.,3616 lbs.,NA
+Pontiac,GTO 'The Judge' '69,FR,364 HP,444.8 ft-lb,201.5 in.,75.8 in.,52.3 in.,3549 lbs.,NA
+Porsche,356 A/1500 GS Carrera '56,RR,97 HP,87.5 ft-lb,155.5 in.,65.7 in.,51.6 in.,1852 lbs.,NA
+Porsche,356 A/1500 GS GT Carrera Speedster '56,RR,107 HP,91.1 ft-lb,155.5 in.,65.7 in.,48.0 in.,1852 lbs.,NA
+Porsche,911 Carrera RS (901) '73,RR,206 HP,188.0 ft-lb,161.5 in.,65.0 in.,52.0 in.,2370 lbs.,NA
+Porsche,911 Carrera RS (964) '92,RR,255 HP,240.1 ft-lb,167.3 in.,65.4 in.,50.0 in.,2712 lbs.,NA
+Porsche,911 Carrera RS (993) '95,RR,295 HP,261.8 ft-lb,167.1 in.,68.1 in.,50.0 in.,2800 lbs.,NA
+Porsche,911 Carrera RS Clubsport (993) '95,RR,295 HP,261.8 ft-lb,167.1 in.,68.3 in.,50.0 in.,2723 lbs.,NA
+Porsche,911 GT1 Strassenversion '97,MR,533 HP,442.6 ft-lb,185.4 in.,76.8 in.,46.2 in.,2646 lbs.,TC
+Porsche,911 GT3 (996) '01,RR,354 HP,273.4 ft-lb,174.4 in.,69.5 in.,50.0 in.,2976 lbs.,NA
+Porsche,911 GT3 (997) '09,RR,428 HP,317.5 ft-lb,175.8 in.,71.2 in.,50.4 in.,3075 lbs.,NA
+Porsche,911 GT3 R (992) '22,RR,557 HP,369.3 ft-lb,181.9 in.,80.7 in.,50.8 in.,2756 lbs.,NA
+Porsche,911 GT3 RS (991) '16,RR,491 HP,340.1 ft-lb,178.9 in.,74.8 in.,50.8 in.,3131 lbs.,NA
+Porsche,911 GT3 RS (992) '22,RR,517 HP,343.5 ft-lb,180.0 in.,74.8 in.,52.0 in.,3197 lbs.,NA
+Porsche,911 RSR (991) '17,MR,509 HP,360.5 ft-lb,179.4 in.,80.6 in.,50.8 in.,2740 lbs.,NA
+Porsche,911 Turbo (930) '81,RR,295 HP,303.7 ft-lb,168.9 in.,69.9 in.,50.4 in.,2866 lbs.,TC
+Porsche,911 Turbo S (992) '20,4WD,641 HP,590.2 ft-lb,178.5 in.,74.8 in.,51.3 in.,3616 lbs.,TC
+Porsche,917 LIVING LEGEND,MR,976 HP,789.8 ft-lb,188.0 in.,80.9 in.,40.4 in.,2690 lbs.,TC
+Porsche,917K '70,MR,598 HP,397.8 ft-lb,162.2 in.,78.0 in.,37.0 in.,1764 lbs.,NA
+Porsche,918 Spyder '13,4WD,874 HP,943.9 ft-lb,182.9 in.,76.4 in.,46.0 in.,3691 lbs.,NA
+Porsche,919 Hybrid '16,4WD,499 HP,382.4 ft-lb,183.1 in.,78.3 in.,45.3 in.,1929 lbs.,TC
+Porsche,959 '87,4WD,443 HP,368.8 ft-lb,167.7 in.,72.4 in.,50.4 in.,3197 lbs.,TC
+Porsche,962 C '88,MR,690 HP,523.6 ft-lb,187.8 in.,78.3 in.,42.5 in.,1874 lbs.,TC
+Porsche,Carrera GT '04,MR,603 HP,435.4 ft-lb,181.6 in.,75.6 in.,45.9 in.,3042 lbs.,NA
+Porsche,Carrera GTS (904) '64,MR,179 HP,144.6 ft-lb,161.0 in.,60.6 in.,41.9 in.,1433 lbs.,NA
+Porsche,Cayman GT4 '16,MR,379 HP,310.2 ft-lb,174.7 in.,71.5 in.,49.8 in.,2954 lbs.,NA
+Porsche,Cayman GT4 Clubsport '16,MR,379 HP,310.2 ft-lb,174.7 in.,78.8 in.,49.8 in.,2866 lbs.,NA
+Porsche,Mission X '23,RR,1341 HP,- ft-lb,179.3 in.,76.8 in.,46.5 in.,- lbs.,EV
+Porsche,Spyder type 550/1500RS '55,MR,108 HP,90.7 ft-lb,141.7 in.,61.0 in.,40.0 in.,1301 lbs.,NA
+Porsche,Taycan Turbo S '19,4WD,751 HP,- ft-lb,195.4 in.,77.4 in.,53.4 in.,5060 lbs.,EV
+Porsche,Vision Gran Turismo,4WD,1098 HP,- ft-lb,170.3 in.,74.4 in.,40.2 in.,3064 lbs.,EV
+Porsche,Vision Gran Turismo Spyder,4WD,1098 HP,- ft-lb,170.3 in.,74.4 in.,40.2 in.,3064 lbs.,EV
+RE Amemiya,FD3S RX-7,FR,366 HP,346.4 ft-lb,169.3 in.,69.3 in.,47.2 in.,2734 lbs.,TC
+RUF,CTR3 '07,MR,690 HP,656.8 ft-lb,175.0 in.,76.5 in.,47.2 in.,3086 lbs.,TC
+RUF,RGT 4.2 '16,RR,517 HP,356.2 ft-lb,176.8 in.,79.2 in.,51.0 in.,3086 lbs.,NA
+Radical,SR3 SL '13,MR,239 HP,250.9 ft-lb,161.4 in.,70.5 in.,44.5 in.,1709 lbs.,TC
+Renault,Avantime 3.0 V6 24V '02,FF,204 HP,210.4 ft-lb,182.8 in.,72.2 in.,64.1 in.,3838 lbs.,NA
+Renault,Captur S Edition TCe 140 '21,FF,138 HP,191.6 ft-lb,166.4 in.,70.7 in.,62.0 in.,2720 lbs.,TC
+Renault,Espace F1 '95,MR,799 HP,520.0 ft-lb,174.4 in.,80.7 in.,69.8 in.,2866 lbs.,NA
+Renault,Kangoo 1.4 '01,FF,73 HP,86.0 ft-lb,157.3 in.,65.8 in.,71.3 in.,2381 lbs.,NA
+Renault,R4 GTL '85,FF,33 HP,54.2 ft-lb,144.4 in.,58.5 in.,61.0 in.,1587 lbs.,NA
+Renault,R5 Turbo '80,MR,159 HP,154.7 ft-lb,144.3 in.,68.9 in.,52.2 in.,2138 lbs.,TC
+Renault,R8 Gordini '66,RR,101 HP,86.3 ft-lb,157.0 in.,58.5 in.,51.5 in.,1874 lbs.,NA
+Renault Sport,Clio R.S. 220 EDC Trophy '15,FF,216 HP,206.8 ft-lb,161.0 in.,68.2 in.,56.4 in.,2599 lbs.,TC
+Renault Sport,Clio R.S. 220 EDC Trophy '16,FF,216 HP,206.8 ft-lb,161.0 in.,68.2 in.,56.5 in.,2654 lbs.,TC
+Renault Sport,Clio V6 24V '00,MR,229 HP,221.3 ft-lb,149.7 in.,71.3 in.,53.7 in.,2943 lbs.,NA
+Renault Sport,Mégane Gr.4,FF,350 HP,333.5 ft-lb,169.3 in.,72.8 in.,54.8 in.,2425 lbs.,TC
+Renault Sport,Mégane R.S. Trophy '11,FF,261 HP,265.5 ft-lb,169.3 in.,72.8 in.,56.5 in.,3058 lbs.,TC
+Renault Sport,Mégane R.S. Trophy Safety Car,FF,261 HP,265.5 ft-lb,169.3 in.,72.8 in.,56.5 in.,3058 lbs.,TC
+Renault Sport,Mégane Trophy '11,MR,359 HP,287.7 ft-lb,172.2 in.,75.2 in.,48.8 in.,2105 lbs.,NA
+Renault Sport,R.S.01 '16,MR,542 HP,465.0 ft-lb,185.2 in.,78.7 in.,48.4 in.,2522 lbs.,TC
+Renault Sport,R.S.01 GT3 '16,MR,534 HP,462.1 ft-lb,185.2 in.,78.7 in.,48.4 in.,2690 lbs.,TC
+Roadster Shop,Rampage,FR,748 HP,700.1 ft-lb,186.0 in.,81.0 in.,51.6 in.,3100 lbs.,NA
+SUBARU,VIZIV GT Vision Gran Turismo,4WD,630 HP,361.6 ft-lb,190.4 in.,76.0 in.,46.7 in.,3042 lbs.,TC
+SUZUKI,Vision Gran Turismo,4WD,426 HP,921.9 ft-lb,157.3 in.,71.9 in.,45.1 in.,2138 lbs.,NA
+SUZUKI,Vision Gran Turismo (Gr.3 Version),FR,577 HP,361.6 ft-lb,165.4 in.,72.4 in.,45.1 in.,2690 lbs.,TC
+Sauber Mercedes,C9 '89,MR,710 HP,597.4 ft-lb,185.0 in.,78.0 in.,41.3 in.,1969 lbs.,TC
+Shelby,Cobra 427 '66,FR,484 HP,480.2 ft-lb,156.0 in.,68.0 in.,49.0 in.,2355 lbs.,NA
+Shelby,Cobra Daytona Coupe '64,FR,384 HP,340.0 ft-lb,181.5 in.,69.0 in.,56.0 in.,2299 lbs.,NA
+Shelby,G.T.350 '65,FR,304 HP,328.9 ft-lb,181.6 in.,68.2 in.,52.2 in.,2800 lbs.,NA
+Subaru,BRZ Drift Car '17,FR,1037 HP,875.8 ft-lb,176.9 in.,78.9 in.,50.0 in.,3159 lbs.,TC
+Subaru,BRZ GT300 '21,FR,478 HP,490.3 ft-lb,179.7 in.,76.8 in.,45.7 in.,2535 lbs.,TC
+Subaru,BRZ S '15,FR,197 HP,151.1 ft-lb,166.9 in.,69.9 in.,51.2 in.,2712 lbs.,NA
+Subaru,BRZ S '21,FR,231 HP,184.4 ft-lb,167.9 in.,69.9 in.,51.6 in.,2800 lbs.,NA
+Subaru,BRZ STI Sport '18,FR,203 HP,156.2 ft-lb,166.9 in.,69.9 in.,52.0 in.,2756 lbs.,NA
+Subaru,Impreza 22B-STi Version '98,4WD,289 HP,280.9 ft-lb,171.9 in.,69.7 in.,54.7 in.,2800 lbs.,TC
+Subaru,Impreza Coupe WRX Type R STi Version VI '99,4WD,276 HP,260.3 ft-lb,171.3 in.,66.5 in.,55.3 in.,2778 lbs.,TC
+Subaru,Impreza Rally Car '98,4WD,299 HP,347.1 ft-lb,174.4 in.,69.7 in.,55.3 in.,2712 lbs.,TC
+Subaru,Impreza Sedan WRX STi '04,4WD,286 HP,303.4 ft-lb,173.8 in.,68.5 in.,56.1 in.,3219 lbs.,TC
+Subaru,WRX Gr.3,FR,591 HP,456.9 ft-lb,199.4 in.,80.3 in.,51.9 in.,2822 lbs.,TC
+Subaru,WRX Gr.4,4WD,377 HP,354.6 ft-lb,180.9 in.,70.7 in.,56.2 in.,2910 lbs.,TC
+Subaru,WRX Gr.B Rally Car,4WD,521 HP,441.7 ft-lb,184.7 in.,80.2 in.,55.5 in.,2822 lbs.,TC
+Subaru,WRX Gr.B Road Car,4WD,473 HP,400.2 ft-lb,199.4 in.,80.3 in.,51.9 in.,3142 lbs.,TC
+Subaru,WRX STI Isle of Man Time Attack Car '16,4WD,578 HP,405.7 ft-lb,180.9 in.,72.8 in.,57.9 in.,2513 lbs.,TC
+Subaru,WRX STI Type S '14,4WD,302 HP,313.3 ft-lb,180.9 in.,70.7 in.,58.1 in.,3285 lbs.,TC
+Suzuki,Cappuccino (EA11R) '91,FR,62 HP,62.8 ft-lb,129.7 in.,54.9 in.,46.7 in.,1543 lbs.,TC
+Suzuki,Carry KC '12,FR,47 HP,45.6 ft-lb,133.7 in.,58.1 in.,70.5 in.,1565 lbs.,NA
+Suzuki,Jimny Sierra JC '18,4WD,100 HP,96.1 ft-lb,139.8 in.,64.8 in.,68.1 in.,2359 lbs.,NA
+Suzuki,Jimny XC '18,4WD,63 HP,70.8 ft-lb,133.7 in.,58.1 in.,67.9 in.,2271 lbs.,TC
+Suzuki,Swift Sport '07,FF,123 HP,109.2 ft-lb,148.2 in.,66.5 in.,59.4 in.,2337 lbs.,NA
+Suzuki,Swift Sport '17,FF,137 HP,169.9 ft-lb,153.1 in.,68.3 in.,59.1 in.,2138 lbs.,TC
+Suzuki,Swift Sport KATANA Edition Gr.4,FF,345 HP,325.4 ft-lb,157.1 in.,71.7 in.,57.9 in.,1984 lbs.,TC
+Suzuki,V6 Escudo Pikes Peak Special '98,4WD,981 HP,687.1 ft-lb,198.8 in.,74.8 in.,59.4 in.,1764 lbs.,TC
+TOYOTA,86 GT '15,FR,197 HP,151.1 ft-lb,166.9 in.,69.9 in.,50.6 in.,2712 lbs.,NA
+TOYOTA,"86 GT""Limited"" '16",FR,203 HP,156.2 ft-lb,166.9 in.,69.9 in.,52.0 in.,2734 lbs.,NA
+TOYOTA,86 Gr.4,FR,358 HP,273.6 ft-lb,168.4 in.,70.2 in.,48.6 in.,2646 lbs.,NA
+TOYOTA,86 Gr.B Rally Car,4WD,516 HP,342.9 ft-lb,170.9 in.,78.3 in.,63.0 in.,2601 lbs.,NA
+TOYOTA,GR010 HYBRID '21,4WD,670 HP,495.2 ft-lb,192.9 in.,78.7 in.,45.3 in.,2293 lbs.,TC
+TOYOTA,S-FR '15,FR,133 HP,110.6 ft-lb,157.1 in.,66.7 in.,52.0 in.,2315 lbs.,NA
+TOYOTA,S-FR Racing Concept '16,FR,349 HP,331.9 ft-lb,161.4 in.,68.3 in.,50.0 in.,2535 lbs.,TC
+TVR,Tuscan Speed 6 '00,FR,360 HP,308.8 ft-lb,166.7 in.,71.3 in.,47.2 in.,2425 lbs.,NA
+Tesla,Model 3 Performance '23,4WD,531 HP,- ft-lb,184.8 in.,72.8 in.,56.9 in.,4048 lbs.,EV
+Tesla,Model S Signature Performance '12,RR,410 HP,- ft-lb,196.0 in.,77.3 in.,56.5 in.,4449 lbs.,EV
+Toyota,2000GT '67,FR,153 HP,130.1 ft-lb,164.4 in.,63.0 in.,45.7 in.,2469 lbs.,NA
+Toyota,86 GRMN '16,FR,214 HP,162.7 ft-lb,168.8 in.,69.9 in.,51.2 in.,2690 lbs.,NA
+Toyota,Alphard Executive Lounge '18,4WD,296 HP,266.0 ft-lb,194.7 in.,72.8 in.,76.8 in.,4872 lbs.,NA
+Toyota,Ambulance Himedic '21,4WD,157 HP,179.3 ft-lb,220.5 in.,74.6 in.,98.0 in.,6305 lbs.,NA
+Toyota,Aqua S '11,FF,109 HP,81.7 ft-lb,157.3 in.,66.7 in.,56.9 in.,2381 lbs.,NA
+Toyota,C-HR S '18,FF,136 HP,104.8 ft-lb,171.7 in.,70.7 in.,61.0 in.,3175 lbs.,NA
+Toyota,Celica GT-FOUR (ST205) '94,4WD,250 HP,224.2 ft-lb,174.0 in.,68.9 in.,51.4 in.,3042 lbs.,TC
+Toyota,Celica GT-FOUR Rally Car (ST205) '95,4WD,298 HP,368.8 ft-lb,174.2 in.,69.7 in.,51.2 in.,2646 lbs.,TC
+Toyota,Corolla Levin 3door 1600GT APEX (AE86) '83,FR,127 HP,109.9 ft-lb,164.6 in.,64.0 in.,52.6 in.,2072 lbs.,NA
+Toyota,Crown Athlete G '13,FR,309 HP,277.7 ft-lb,192.7 in.,70.9 in.,57.1 in.,3638 lbs.,NA
+Toyota,Crown Athlete G Safety Car,FR,309 HP,277.7 ft-lb,192.7 in.,70.9 in.,57.1 in.,3638 lbs.,NA
+Toyota,FT-1,FR,- HP,- ft-lb,- in.,- in.,- in.,- lbs.,TC
+Toyota,FT-1 Vision Gran Turismo,FR,- HP,- ft-lb,- in.,- in.,- in.,- lbs.,TC
+Toyota,FT-1 Vision Gran Turismo (Gr.3),FR,544 HP,346.9 ft-lb,198.0 in.,81.9 in.,46.5 in.,2822 lbs.,TC
+Toyota,GR Corolla MORIZO Edition '22,4WD,299 HP,295.0 ft-lb,173.4 in.,72.9 in.,58.1 in.,3186 lbs.,TC
+Toyota,GR Supra RZ '19,FR,335 HP,369.0 ft-lb,172.4 in.,73.4 in.,51.0 in.,3351 lbs.,TC
+Toyota,GR Supra RZ '20,FR,382 HP,369.0 ft-lb,172.4 in.,73.4 in.,50.8 in.,3373 lbs.,TC
+Toyota,GR Supra Race Car '19,FR,394 HP,433.6 ft-lb,172.4 in.,73.4 in.,51.0 in.,3042 lbs.,TC
+Toyota,GR Supra Racing Concept '18,FR,591 HP,514.9 ft-lb,180.1 in.,80.6 in.,48.4 in.,2740 lbs.,TC
+Toyota,"GR Yaris 1st Edition RZ ""High performance"" '20",4WD,268 HP,273.1 ft-lb,157.3 in.,71.1 in.,57.3 in.,2844 lbs.,TC
+Toyota,GR86 RZ '21,FR,231 HP,184.4 ft-lb,167.9 in.,69.9 in.,51.6 in.,2800 lbs.,NA
+Toyota,GT-One (TS020) '99,MR,764 HP,605.3 ft-lb,190.6 in.,78.7 in.,44.3 in.,1984 lbs.,TC
+Toyota,Hiace Van DX '16,FR,134 HP,134.5 ft-lb,184.8 in.,66.7 in.,78.0 in.,3704 lbs.,NA
+Toyota,Land Cruiser FJ40V '74,4WD,128 HP,216.9 ft-lb,152.4 in.,66.5 in.,76.0 in.,3549 lbs.,NA
+Toyota,MR2 GT-S '97,MR,241 HP,224.2 ft-lb,164.2 in.,66.7 in.,48.6 in.,2800 lbs.,TC
+Toyota,Prius G '09,FF,146 HP,104.8 ft-lb,175.6 in.,68.7 in.,58.7 in.,2976 lbs.,NA
+Toyota,RAV4 Adventure '20,4WD,168 HP,152.6 ft-lb,181.5 in.,73.4 in.,66.5 in.,3593 lbs.,NA
+Toyota,Sports 800 '65,FR,43 HP,49.1 ft-lb,142.1 in.,57.7 in.,46.3 in.,1279 lbs.,NA
+Toyota,Sprinter Trueno 3door 1600GT APEX (AE86) '83,FR,127 HP,109.9 ft-lb,165.6 in.,64.0 in.,52.6 in.,2072 lbs.,NA
+Toyota,Supra 3.0GT Turbo A '88,FR,266 HP,264.0 ft-lb,181.9 in.,68.7 in.,51.2 in.,3373 lbs.,TC
+Toyota,Supra GT500 '97,FR,492 HP,474.4 ft-lb,178.0 in.,75.2 in.,47.2 in.,2535 lbs.,TC
+Toyota,Supra RZ '97,FR,325 HP,392.6 ft-lb,178.0 in.,71.3 in.,50.2 in.,3329 lbs.,TC
+Toyota,TS030 Hybrid '12,MR,529 HP,306.3 ft-lb,183.1 in.,78.7 in.,45.3 in.,1984 lbs.,NA
+Toyota,TS050 - Hybrid '16,4WD,493 HP,371.8 ft-lb,183.1 in.,74.8 in.,45.3 in.,1929 lbs.,TC
+Toyota,Trueno 3door 1600GT APEX (AE86 Shuichi Shigeno Version),FR,207 HP,126.5 ft-lb,165.6 in.,65.9 in.,50.2 in.,1819 lbs.,NA
+Toyota,Tundra TRD Pro '19,4WD,379 HP,400.7 ft-lb,228.9 in.,79.9 in.,76.0 in.,5633 lbs.,NA
+Volkswagen,1200 '66,RR,33 HP,60.7 ft-lb,160.2 in.,60.6 in.,59.1 in.,1720 lbs.,NA
+Volkswagen,Beetle Gr.3,FR,591 HP,437.0 ft-lb,172.0 in.,77.1 in.,53.0 in.,2646 lbs.,TC
+Volkswagen,GTI Roadster Vision Gran Turismo,4WD,551 HP,490.8 ft-lb,162.6 in.,73.6 in.,52.2 in.,2646 lbs.,TC
+Volkswagen,GTI Supersport Vision Gran Turismo,4WD,551 HP,490.8 ft-lb,167.3 in.,73.6 in.,52.2 in.,2646 lbs.,TC
+Volkswagen,GTI Vision Gran Turismo (Gr.3),MR,551 HP,490.8 ft-lb,172.4 in.,76.0 in.,41.7 in.,2778 lbs.,TC
+Volkswagen,Golf I GTI '83,FF,110 HP,110.6 ft-lb,150.2 in.,64.2 in.,54.9 in.,1962 lbs.,NA
+Volkswagen,Golf VII GTI '14,FF,216 HP,258.2 ft-lb,168.3 in.,70.9 in.,57.1 in.,3064 lbs.,TC
+Volkswagen,ID.R '19,4WD,670 HP,- ft-lb,204.7 in.,92.5 in.,47.2 in.,2271 lbs.,EV
+Volkswagen,Polo GTI '14,FF,189 HP,235.7 ft-lb,157.3 in.,66.3 in.,56.9 in.,2804 lbs.,TC
+Volkswagen,Sambabus Typ 2 (T1) '62,RR,33 HP,60.7 ft-lb,168.9 in.,68.9 in.,76.4 in.,2414 lbs.,NA
+Volkswagen,Scirocco Gr.4,FF,358 HP,292.2 ft-lb,169.3 in.,71.1 in.,53.9 in.,2315 lbs.,TC
+Volkswagen,Scirocco R '10,FF,252 HP,243.7 ft-lb,167.5 in.,71.7 in.,55.9 in.,3108 lbs.,TC
+Volvo,240 SE Estate '93,FR,109 HP,116.4 ft-lb,188.6 in.,67.3 in.,57.5 in.,2919 lbs.,NA
+Volvo,V40 T5 R-Design '13,FF,210 HP,221.3 ft-lb,172.0 in.,70.9 in.,56.7 in.,3395 lbs.,TC
+Wicked Fabrication,GT 51,FR,372 HP,384.7 ft-lb,187.0 in.,70.0 in.,52.0 in.,2950 lbs.,NA
+Xiaomi,SU7 Ultra '25,4WD,1526 HP,- ft-lb,199.6 in.,77.6 in.,57.7 in.,5203 lbs.,EV
+Škoda,Vision Gran Turismo,4WD,1071 HP,- ft-lb,173.5 in.,76.7 in.,37.4 in.,2866 lbs.,EV

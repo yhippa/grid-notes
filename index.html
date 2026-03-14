@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid Notes GT7 Journal</title>
+  <meta
+    name="description"
+    content="Mobile-friendly Gran Turismo 7 Sport Mode journal for logging Daily Races, Time Trials, and improvement notes."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-glow page-glow-a"></div>
+  <div class="page-glow page-glow-b"></div>
+
+  <main class="shell">
+    <section class="hero panel">
+      <div class="hero-copy">
+        <p class="kicker">Gran Turismo 7 Sport Mode Journal</p>
+        <h1>Grid Notes</h1>
+        <p class="hero-text">
+          Log the race, capture the feeling, and keep enough structure that future analysis can
+          actually spot patterns by track, combo, and mistake type.
+        </p>
+        <div class="hero-pills">
+          <span>Mobile-first</span>
+          <span>Private in-browser storage</span>
+          <span>Built for Daily Races and Time Trials</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <p class="mini-label">Tonight's focus</p>
+        <div class="focus-track">
+          <span class="focus-track-name">Dragon Trail</span>
+          <span class="focus-track-type">Daily Race B prep</span>
+        </div>
+        <ul class="focus-list">
+          <li>Brake release into medium-speed rotation</li>
+          <li>Track if late-race pace falls off</li>
+          <li>Write one honest note before queueing again</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="insight-strip">
+      <article class="stat-card panel">
+        <p class="mini-label">Sessions Logged</p>
+        <strong id="sessionCount">0</strong>
+        <span>Total saved locally on this device</span>
+      </article>
+      <article class="stat-card panel">
+        <p class="mini-label">Best Time Trial</p>
+        <strong id="bestLap">--</strong>
+        <span id="bestLapMeta">Log a time trial to populate this</span>
+      </article>
+      <article class="stat-card panel">
+        <p class="mini-label">Average Finish Delta</p>
+        <strong id="finishDelta">--</strong>
+        <span id="finishDeltaMeta">Needs Daily Race entries</span>
+      </article>
+    </section>
+
+    <section class="content-grid">
+      <section class="panel form-panel">
+        <div class="section-heading">
+          <div>
+            <p class="mini-label">Quick Entry</p>
+            <h2>Log a session before the details fade</h2>
+          </div>
+          <p class="section-note">Everything saves locally in your browser.</p>
+        </div>
+
+        <form id="logForm" class="log-form">
+          <div class="field-grid field-grid-two">
+            <label>
+              Session Type
+              <select id="sessionType" name="sessionType">
+                <option value="Daily Race">Daily Race</option>
+                <option value="Time Trial">Time Trial</option>
+              </select>
+            </label>
+            <label>
+              Event Label
+              <input id="eventLabel" name="eventLabel" type="text" maxlength="40" placeholder="Race B / TT 29" />
+            </label>
+          </div>
+
+          <div class="field-grid field-grid-two">
+            <label>
+              Track
+              <input
+                id="track"
+                name="track"
+                type="text"
+                list="trackOptions"
+                autocomplete="off"
+                placeholder="Search track or layout"
+              />
+              <small id="trackMeta" class="field-meta">Loading GT7 track reference data...</small>
+            </label>
+            <label>
+              Car
+              <input
+                id="car"
+                name="car"
+                type="text"
+                list="carOptions"
+                autocomplete="off"
+                placeholder="Search make or model"
+              />
+              <small id="carMeta" class="field-meta">Loading GT7 car reference data...</small>
+            </label>
+          </div>
+
+          <div class="field-grid field-grid-four">
+            <label>
+              Date
+              <input id="sessionDate" name="sessionDate" type="date" />
+            </label>
+            <label>
+              Best Lap
+              <input id="bestLapInput" name="bestLapInput" type="text" inputmode="decimal" placeholder="1:41.982" />
+            </label>
+            <label>
+              Start
+              <input id="startPosition" name="startPosition" type="number" min="1" max="20" placeholder="6" />
+            </label>
+            <label>
+              Finish
+              <input id="finishPosition" name="finishPosition" type="number" min="1" max="20" placeholder="4" />
+            </label>
+          </div>
+
+          <div class="field-grid field-grid-four">
+            <label>
+              DR Result
+              <select id="drChange" name="drChange">
+                <option value="Flat">Flat</option>
+                <option value="Up">Up</option>
+                <option value="Down">Down</option>
+              </select>
+            </label>
+            <label>
+              SR Result
+              <select id="srChange" name="srChange">
+                <option value="Flat">Flat</option>
+                <option value="Up">Up</option>
+                <option value="Down">Down</option>
+              </select>
+            </label>
+            <label>
+              Penalties
+              <input id="penalties" name="penalties" type="number" min="0" max="10" placeholder="0" />
+            </label>
+            <label>
+              Confidence
+              <input id="confidence" name="confidence" type="range" min="1" max="5" value="3" />
+            </label>
+          </div>
+
+          <div class="field-grid">
+            <label>
+              What cost time?
+              <textarea
+                id="mistakeNote"
+                name="mistakeNote"
+                rows="3"
+                maxlength="220"
+                placeholder="Missed trail brake window into the downhill right-hander and kept over-slowing the chicane."
+              ></textarea>
+            </label>
+          </div>
+
+          <div class="field-grid">
+            <label>
+              What felt good?
+              <textarea
+                id="positiveNote"
+                name="positiveNote"
+                rows="3"
+                maxlength="220"
+                placeholder="Better exits once I stopped forcing entry speed."
+              ></textarea>
+            </label>
+          </div>
+
+          <div class="field-grid">
+            <label>
+              One-line recap
+              <textarea
+                id="summary"
+                name="summary"
+                rows="2"
+                maxlength="180"
+                placeholder="Started P6, finished P4, calm in traffic, still losing time on technical direction changes."
+              ></textarea>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="primary-btn">Save Session</button>
+            <button type="button" id="seedDemo" class="secondary-btn">Load Demo Data</button>
+          </div>
+          <p id="formStatus" class="status-line" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="stack">
+        <section class="panel">
+          <div class="section-heading">
+            <div>
+              <p class="mini-label">Pattern Scan</p>
+              <h2>What the journal already sees</h2>
+            </div>
+          </div>
+          <div id="patternList" class="pattern-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="section-heading">
+            <div>
+              <p class="mini-label">Reference Deck</p>
+              <h2>Useful GT7 anchors</h2>
+            </div>
+          </div>
+          <div class="reference-list">
+            <a href="https://www.gran-turismo.com/us/gt7/apex/" target="_blank" rel="noreferrer">Beyond the Apex</a>
+            <a href="https://www.gran-turismo.com/us/gt7/carlist/" target="_blank" rel="noreferrer">Official car list</a>
+            <a href="https://www.gran-turismo.com/us/gt7/tracklist/" target="_blank" rel="noreferrer">Official track list</a>
+            <a href="https://www.gran-turismo.com/us/gt7/sportmode/" target="_blank" rel="noreferrer">Sport Mode hub</a>
+            <a href="https://www.gran-turismo.com/us/gt7/manual/" target="_blank" rel="noreferrer">Online manual</a>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <section class="panel timeline-panel">
+      <div class="section-heading">
+        <div>
+          <p class="mini-label">Recent Runs</p>
+          <h2>Your latest entries</h2>
+        </div>
+        <div class="timeline-actions">
+          <button type="button" id="shareJournal" class="secondary-btn">Share or Save JSON</button>
+          <button type="button" id="downloadJournal" class="ghost-btn">Download JSON</button>
+          <button type="button" id="copyJournal" class="ghost-btn">Copy JSON</button>
+          <button type="button" id="importJournal" class="ghost-btn">Import JSON</button>
+          <input id="importFile" type="file" accept="application/json,.json" hidden />
+        </div>
+      </div>
+      <div id="sessionTimeline" class="timeline"></div>
+      <p id="exportStatus" class="status-line" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <datalist id="trackOptions"></datalist>
+  <datalist id="carOptions"></datalist>
+
+  <script src="script.js"></script>
+</body>
+</html>
