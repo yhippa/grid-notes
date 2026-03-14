@@ -84,6 +84,9 @@ const carMeta = document.getElementById("carMeta");
 const sessionDateInput = document.getElementById("sessionDate");
 const trackDatalist = document.getElementById("trackOptions");
 const carDatalist = document.getElementById("carOptions");
+const sessionTypeSelect = document.getElementById("sessionType");
+const raceDetails = document.getElementById("raceDetails");
+const tagButtons = [...document.querySelectorAll(".tag-btn")];
 
 const referenceData = {
   cars: [],
@@ -515,6 +518,14 @@ function saveFormEntry(event) {
     summary: String(formData.get("summary") || "").trim()
   };
 
+  if (entry.sessionType !== "Daily Race") {
+    entry.startPosition = "";
+    entry.finishPosition = "";
+    entry.drChange = "Flat";
+    entry.srChange = "Flat";
+    entry.penalties = 0;
+  }
+
   if (!entry.sessionDate) {
     formStatus.textContent = "Add a date so sessions sort correctly.";
     return;
@@ -531,6 +542,9 @@ function saveFormEntry(event) {
   form.reset();
   sessionDateInput.value = new Date().toISOString().split("T")[0];
   form.querySelector("#confidence").value = "3";
+  sessionTypeSelect.value = "Daily Race";
+  syncSessionTypeUI();
+  handleReferenceInput();
   formStatus.textContent = "Session saved. Good enough beats trying to remember it later.";
   renderAll();
 }
@@ -595,11 +609,20 @@ async function shareJournal() {
   const file = new File([json], journalFileName(), { type: "application/json" });
 
   try {
-    if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+    if (navigator.share) {
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({
+          title: "Grid Notes export",
+          text: "Gran Turismo 7 journal export",
+          files: [file]
+        });
+        exportStatus.textContent = "Share sheet opened.";
+        return;
+      }
+
       await navigator.share({
         title: "Grid Notes export",
-        text: "Gran Turismo 7 journal export",
-        files: [file]
+        text: json
       });
       exportStatus.textContent = "Share sheet opened.";
       return;
@@ -609,6 +632,26 @@ async function shareJournal() {
   }
 
   downloadJournal();
+}
+
+function syncSessionTypeUI() {
+  const isRace = sessionTypeSelect.value === "Daily Race";
+  raceDetails.hidden = !isRace;
+  if (!isRace) {
+    raceDetails.removeAttribute("open");
+  } else {
+    raceDetails.setAttribute("open", "");
+  }
+}
+
+function appendTagToField(targetId, tag) {
+  const field = document.getElementById(targetId);
+  if (!field) return;
+
+  const current = field.value.trim();
+  field.value = current ? `${current}; ${tag}` : tag;
+  field.dispatchEvent(new Event("input", { bubbles: true }));
+  field.focus();
 }
 
 function normalizeImportedEntry(entry, index) {
@@ -677,7 +720,14 @@ function initialize() {
   importFileInput.addEventListener("change", handleImportFile);
   trackSelect.addEventListener("input", handleReferenceInput);
   carSelect.addEventListener("input", handleReferenceInput);
+  sessionTypeSelect.addEventListener("change", syncSessionTypeUI);
+  tagButtons.forEach((button) => {
+    button.addEventListener("click", () =>
+      appendTagToField(button.dataset.target, button.dataset.tag)
+    );
+  });
   loadReferenceData().then(handleReferenceInput);
+  syncSessionTypeUI();
   renderAll();
 }
 

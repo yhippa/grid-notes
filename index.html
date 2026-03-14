@@ -19,6 +19,7 @@
 <body>
   <div class="page-glow page-glow-a"></div>
   <div class="page-glow page-glow-b"></div>
+  <div class="page-grid"></div>
 
   <main class="shell">
     <section class="hero panel">
@@ -74,135 +75,179 @@
             <p class="mini-label">Quick Entry</p>
             <h2>Log a session before the details fade</h2>
           </div>
-          <p class="section-note">Everything saves locally in your browser.</p>
+          <p class="section-note">Fast enough for mobile, structured enough for later analysis.</p>
         </div>
 
         <form id="logForm" class="log-form">
-          <div class="field-grid field-grid-two">
-            <label>
-              Session Type
-              <select id="sessionType" name="sessionType">
-                <option value="Daily Race">Daily Race</option>
-                <option value="Time Trial">Time Trial</option>
-              </select>
-            </label>
-            <label>
-              Event Label
-              <input id="eventLabel" name="eventLabel" type="text" maxlength="40" placeholder="Race B / TT 29" />
-            </label>
-          </div>
+          <section class="form-section">
+            <div class="form-section-head">
+              <span class="section-step">01</span>
+              <div>
+                <h3>Session Setup</h3>
+                <p>Start with the essentials you always know.</p>
+              </div>
+            </div>
+            <div class="field-grid field-grid-two">
+              <label>
+                Session Type
+                <select id="sessionType" name="sessionType">
+                  <option value="Daily Race">Daily Race</option>
+                  <option value="Time Trial">Time Trial</option>
+                </select>
+              </label>
+              <label>
+                Event Label
+                <input id="eventLabel" name="eventLabel" type="text" maxlength="40" placeholder="Race B / TT 29" />
+              </label>
+            </div>
 
-          <div class="field-grid field-grid-two">
-            <label>
-              Track
-              <input
-                id="track"
-                name="track"
-                type="text"
-                list="trackOptions"
-                autocomplete="off"
-                placeholder="Search track or layout"
-              />
-              <small id="trackMeta" class="field-meta">Loading GT7 track reference data...</small>
-            </label>
-            <label>
-              Car
-              <input
-                id="car"
-                name="car"
-                type="text"
-                list="carOptions"
-                autocomplete="off"
-                placeholder="Search make or model"
-              />
-              <small id="carMeta" class="field-meta">Loading GT7 car reference data...</small>
-            </label>
-          </div>
+            <div class="field-grid field-grid-two">
+              <label>
+                Track
+                <input
+                  id="track"
+                  name="track"
+                  type="text"
+                  list="trackOptions"
+                  autocomplete="off"
+                  placeholder="Search track or layout"
+                />
+                <small id="trackMeta" class="field-meta">Loading GT7 track reference data...</small>
+              </label>
+              <label>
+                Car
+                <input
+                  id="car"
+                  name="car"
+                  type="text"
+                  list="carOptions"
+                  autocomplete="off"
+                  placeholder="Search make or model"
+                />
+                <small id="carMeta" class="field-meta">Loading GT7 car reference data...</small>
+              </label>
+            </div>
 
-          <div class="field-grid field-grid-four">
-            <label>
-              Date
-              <input id="sessionDate" name="sessionDate" type="date" />
-            </label>
-            <label>
-              Best Lap
-              <input id="bestLapInput" name="bestLapInput" type="text" inputmode="decimal" placeholder="1:41.982" />
-            </label>
-            <label>
-              Start
-              <input id="startPosition" name="startPosition" type="number" min="1" max="20" placeholder="6" />
-            </label>
-            <label>
-              Finish
-              <input id="finishPosition" name="finishPosition" type="number" min="1" max="20" placeholder="4" />
-            </label>
-          </div>
+            <div class="field-grid field-grid-two">
+              <label>
+                Date
+                <input id="sessionDate" name="sessionDate" type="date" />
+              </label>
+              <label>
+                Best Lap
+                <input id="bestLapInput" name="bestLapInput" type="text" inputmode="decimal" placeholder="1:41.982" />
+              </label>
+            </div>
+          </section>
 
-          <div class="field-grid field-grid-four">
-            <label>
-              DR Result
-              <select id="drChange" name="drChange">
-                <option value="Flat">Flat</option>
-                <option value="Up">Up</option>
-                <option value="Down">Down</option>
-              </select>
-            </label>
-            <label>
-              SR Result
-              <select id="srChange" name="srChange">
-                <option value="Flat">Flat</option>
-                <option value="Up">Up</option>
-                <option value="Down">Down</option>
-              </select>
-            </label>
-            <label>
-              Penalties
-              <input id="penalties" name="penalties" type="number" min="0" max="10" placeholder="0" />
-            </label>
-            <label>
-              Confidence
-              <input id="confidence" name="confidence" type="range" min="1" max="5" value="3" />
-            </label>
-          </div>
+          <details id="raceDetails" class="form-section form-section-collapsible" open>
+            <summary class="form-section-head">
+              <span class="section-step">02</span>
+              <div>
+                <h3>Race Outcome</h3>
+                <p>Visible for Daily Races. Keep it quick.</p>
+              </div>
+            </summary>
 
-          <div class="field-grid">
-            <label>
-              What cost time?
-              <textarea
-                id="mistakeNote"
-                name="mistakeNote"
-                rows="3"
-                maxlength="220"
-                placeholder="Missed trail brake window into the downhill right-hander and kept over-slowing the chicane."
-              ></textarea>
-            </label>
-          </div>
+            <div class="field-grid field-grid-two">
+              <label>
+                Start
+                <input id="startPosition" name="startPosition" type="number" min="1" max="20" placeholder="6" />
+              </label>
+              <label>
+                Finish
+                <input id="finishPosition" name="finishPosition" type="number" min="1" max="20" placeholder="4" />
+              </label>
+            </div>
 
-          <div class="field-grid">
-            <label>
-              What felt good?
-              <textarea
-                id="positiveNote"
-                name="positiveNote"
-                rows="3"
-                maxlength="220"
-                placeholder="Better exits once I stopped forcing entry speed."
-              ></textarea>
-            </label>
-          </div>
+            <div class="field-grid field-grid-three">
+              <label>
+                DR Result
+                <select id="drChange" name="drChange">
+                  <option value="Flat">Flat</option>
+                  <option value="Up">Up</option>
+                  <option value="Down">Down</option>
+                </select>
+              </label>
+              <label>
+                SR Result
+                <select id="srChange" name="srChange">
+                  <option value="Flat">Flat</option>
+                  <option value="Up">Up</option>
+                  <option value="Down">Down</option>
+                </select>
+              </label>
+              <label>
+                Penalties
+                <input id="penalties" name="penalties" type="number" min="0" max="10" placeholder="0" />
+              </label>
+            </div>
+          </details>
 
-          <div class="field-grid">
-            <label>
-              One-line recap
-              <textarea
-                id="summary"
-                name="summary"
-                rows="2"
-                maxlength="180"
-                placeholder="Started P6, finished P4, calm in traffic, still losing time on technical direction changes."
-              ></textarea>
-            </label>
-          </div>
+          <section class="form-section">
+            <div class="form-section-head">
+              <span class="section-step">03</span>
+              <div>
+                <h3>Feeling and Notes</h3>
+                <p>Quick inputs first, detail if you want it.</p>
+              </div>
+            </div>
+
+            <div class="field-grid">
+              <label>
+                Confidence
+                <input id="confidence" name="confidence" type="range" min="1" max="5" value="3" />
+              </label>
+            </div>
+
+            <div class="quick-tags">
+              <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Overdrove entry">Overdrove entry</button>
+              <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Brake release">Brake release</button>
+              <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Traffic">Traffic</button>
+              <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Good exits">Good exits</button>
+              <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Calm racecraft">Calm racecraft</button>
+              <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Consistency">Consistency</button>
+            </div>
+
+            <div class="field-grid">
+              <label>
+                What cost time?
+                <textarea
+                  id="mistakeNote"
+                  name="mistakeNote"
+                  rows="3"
+                  maxlength="220"
+                  placeholder="Missed trail brake window into the downhill right-hander and kept over-slowing the chicane."
+                ></textarea>
+              </label>
+            </div>
+
+            <div class="field-grid">
+              <label>
+                What felt good?
+                <textarea
+                  id="positiveNote"
+                  name="positiveNote"
+                  rows="3"
+                  maxlength="220"
+                  placeholder="Better exits once I stopped forcing entry speed."
+                ></textarea>
+              </label>
+            </div>
+
+            <div class="field-grid">
+              <label>
+                One-line recap
+                <textarea
+                  id="summary"
+                  name="summary"
+                  rows="2"
+                  maxlength="180"
+                  placeholder="Started P6, finished P4, calm in traffic, still losing time on technical direction changes."
+                ></textarea>
+              </label>
+            </div>
+          </section>
 
           <div class="form-actions">
             <button type="submit" class="primary-btn">Save Session</button>
@@ -248,7 +293,7 @@
           <h2>Your latest entries</h2>
         </div>
         <div class="timeline-actions">
-          <button type="button" id="shareJournal" class="secondary-btn">Share or Save JSON</button>
+          <button type="button" id="shareJournal" class="secondary-btn">Share JSON</button>
           <button type="button" id="downloadJournal" class="ghost-btn">Download JSON</button>
           <button type="button" id="copyJournal" class="ghost-btn">Copy JSON</button>
           <button type="button" id="importJournal" class="ghost-btn">Import JSON</button>
