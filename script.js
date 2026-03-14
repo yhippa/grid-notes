@@ -82,6 +82,7 @@ const carSelect = document.getElementById("car");
 const trackMeta = document.getElementById("trackMeta");
 const carMeta = document.getElementById("carMeta");
 const sessionDateInput = document.getElementById("sessionDate");
+const bestLapField = document.getElementById("bestLapInput");
 const trackDatalist = document.getElementById("trackOptions");
 const carDatalist = document.getElementById("carOptions");
 const sessionTypeSelect = document.getElementById("sessionType");
@@ -292,6 +293,35 @@ function lapTimeToMs(value) {
 
   const [, minutes = "0", seconds, millis] = match;
   return Number(minutes) * 60000 + Number(seconds) * 1000 + Number(millis.padEnd(3, "0"));
+}
+
+function formatLapTimeValue(value) {
+  const digits = String(value || "").replace(/\D/g, "").slice(0, 10);
+  if (!digits) return "";
+  if (digits.length <= 3) return digits;
+  if (digits.length <= 5) {
+    return `${digits.slice(0, -3)}.${digits.slice(-3)}`;
+  }
+
+  const minutes = digits.slice(0, -5);
+  const seconds = digits.slice(-5, -3);
+  const millis = digits.slice(-3);
+  return `${minutes}:${seconds}.${millis}`;
+}
+
+function normalizeLapTimeValue(value) {
+  const trimmed = String(value || "").trim();
+  if (!trimmed) return "";
+  if (/^\d+$/.test(trimmed)) return formatLapTimeValue(trimmed);
+  if (/^(?:(\d+):)?(\d{1,2})\.(\d{1,3})$/.test(trimmed)) return trimmed;
+  return formatLapTimeValue(trimmed);
+}
+
+function handleBestLapInput() {
+  const formatted = formatLapTimeValue(bestLapField.value);
+  if (bestLapField.value !== formatted) {
+    bestLapField.value = formatted;
+  }
 }
 
 function formatDelta(delta) {
@@ -506,7 +536,7 @@ function saveFormEntry(event) {
     track: formData.get("track"),
     car: formData.get("car"),
     sessionDate: formData.get("sessionDate"),
-    bestLapInput: String(formData.get("bestLapInput") || "").trim(),
+    bestLapInput: normalizeLapTimeValue(formData.get("bestLapInput")),
     startPosition: normalizeNumber(formData.get("startPosition")),
     finishPosition: normalizeNumber(formData.get("finishPosition")),
     drChange: normalizeRatingDirection(formData.get("drChange")),
@@ -631,6 +661,14 @@ async function shareJournal() {
     console.error("Native share failed", error);
   }
 
+  try {
+    await navigator.clipboard.writeText(json);
+    exportStatus.textContent = "Native share is unavailable here. JSON copied to clipboard instead.";
+    return;
+  } catch (error) {
+    console.error("Clipboard fallback failed", error);
+  }
+
   downloadJournal();
 }
 
@@ -670,7 +708,7 @@ function normalizeImportedEntry(entry, index) {
     track: String(entry.track),
     car: String(entry.car),
     sessionDate: String(entry.sessionDate),
-    bestLapInput: String(entry.bestLapInput || "").trim(),
+    bestLapInput: normalizeLapTimeValue(entry.bestLapInput),
     startPosition: entry.startPosition === "" ? "" : Number(entry.startPosition || ""),
     finishPosition: entry.finishPosition === "" ? "" : Number(entry.finishPosition || ""),
     drChange: normalizeRatingDirection(entry.drChange),
@@ -720,6 +758,8 @@ function initialize() {
   importFileInput.addEventListener("change", handleImportFile);
   trackSelect.addEventListener("input", handleReferenceInput);
   carSelect.addEventListener("input", handleReferenceInput);
+  bestLapField.addEventListener("input", handleBestLapInput);
+  bestLapField.addEventListener("blur", handleBestLapInput);
   sessionTypeSelect.addEventListener("change", syncSessionTypeUI);
   tagButtons.forEach((button) => {
     button.addEventListener("click", () =>
