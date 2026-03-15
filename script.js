@@ -13,11 +13,15 @@ const demoSessions = [
     car: "Mazda RX-VISION GT3 CONCEPT",
     sessionDate: "2026-03-12",
     bestLapInput: "1:41.982",
+    raceTime: "",
+    winnerDelta: "",
     startPosition: 7,
     finishPosition: 4,
+    positionChange: 3,
     drChange: "Up",
     srChange: "Up",
     penalties: 0,
+    penaltyReason: "",
     confidence: 4,
     mistakeNote: "Still overcommitting on the technical change of direction and giving up exit speed.",
     positiveNote: "Stayed composed in traffic and used the draft without overdriving the entry.",
@@ -31,11 +35,15 @@ const demoSessions = [
     car: "McLaren 650S GT3 '15",
     sessionDate: "2026-03-10",
     bestLapInput: "1:59.438",
+    raceTime: "",
+    winnerDelta: "",
     startPosition: "",
     finishPosition: "",
+    positionChange: "",
     drChange: "Flat",
     srChange: "Flat",
     penalties: 0,
+    penaltyReason: "",
     confidence: 3,
     mistakeNote: "S-curves are still inconsistent because steering input stacks up too early.",
     positiveNote: "Hairpin exit improved when I waited a beat longer before throttle.",
@@ -49,11 +57,15 @@ const demoSessions = [
     car: "Porsche 911 RSR (991) '17",
     sessionDate: "2026-03-08",
     bestLapInput: "1:27.515",
+    raceTime: "",
+    winnerDelta: "",
     startPosition: 10,
     finishPosition: 11,
+    positionChange: -1,
     drChange: "Down",
     srChange: "Down",
     penalties: 2,
+    penaltyReason: "Wall contact after a spin",
     confidence: 2,
     mistakeNote: "Lost rhythm after contact and chased the lap instead of resetting.",
     positiveNote: "The final three laps were cleaner once I focused on exits only.",
@@ -83,6 +95,8 @@ const trackMeta = document.getElementById("trackMeta");
 const carMeta = document.getElementById("carMeta");
 const sessionDateInput = document.getElementById("sessionDate");
 const bestLapField = document.getElementById("bestLapInput");
+const raceTimeField = document.getElementById("raceTime");
+const winnerDeltaField = document.getElementById("winnerDelta");
 const trackDatalist = document.getElementById("trackOptions");
 const carDatalist = document.getElementById("carOptions");
 const sessionTypeSelect = document.getElementById("sessionType");
@@ -324,6 +338,13 @@ function handleBestLapInput() {
   }
 }
 
+function handleFormattedTimeInput(field) {
+  const formatted = formatLapTimeValue(field.value);
+  if (field.value !== formatted) {
+    field.value = formatted;
+  }
+}
+
 function formatDelta(delta) {
   if (Number.isNaN(delta)) return "--";
   const prefix = delta > 0 ? "+" : "";
@@ -489,14 +510,18 @@ function renderTimeline(sessions) {
           </div>
           <div class="timeline-meta-grid">
             <span>Best lap<strong>${escapeHtml(entry.bestLapInput || "--")}</strong></span>
+            <span>Race time<strong>${escapeHtml(entry.raceTime || "--")}</strong></span>
+            <span>Winner delta<strong>${escapeHtml(entry.winnerDelta || "--")}</strong></span>
             <span>Start<strong>${escapeHtml(entry.startPosition || "--")}</strong></span>
             <span>Finish<strong>${escapeHtml(entry.finishPosition || "--")}</strong></span>
+            <span>Pos change<strong>${escapeHtml(entry.positionChange === "" ? "--" : entry.positionChange)}</strong></span>
             <span>Penalties<strong>${escapeHtml(entry.penalties || 0)}</strong></span>
             <span>DR<strong>${escapeHtml(normalizeRatingDirection(entry.drChange))}</strong></span>
             <span>SR<strong>${escapeHtml(normalizeRatingDirection(entry.srChange))}</strong></span>
           </div>
           <p class="timeline-note"><strong>Cost time:</strong> ${escapeHtml(entry.mistakeNote || "No note logged.")}</p>
           <p class="timeline-note"><strong>Felt good:</strong> ${escapeHtml(entry.positiveNote || "No note logged.")}</p>
+          ${entry.penaltyReason ? `<p class="timeline-note"><strong>Penalty reason:</strong> ${escapeHtml(entry.penaltyReason)}</p>` : ""}
           <p class="timeline-note"><strong>Recap:</strong> ${escapeHtml(entry.summary || "No summary logged.")}</p>
         </article>
       `;
@@ -514,6 +539,24 @@ function renderAll() {
 
 function normalizeNumber(value) {
   return value === "" ? "" : Number(value);
+}
+
+function deriveRacePositions(entry) {
+  const startKnown = Number.isFinite(entry.startPosition);
+  const finishKnown = Number.isFinite(entry.finishPosition);
+  const changeKnown = Number.isFinite(entry.positionChange);
+
+  if (!changeKnown && startKnown && finishKnown) {
+    entry.positionChange = entry.startPosition - entry.finishPosition;
+  }
+
+  if (changeKnown && !startKnown && finishKnown) {
+    entry.startPosition = entry.finishPosition + entry.positionChange;
+  }
+
+  if (changeKnown && startKnown && !finishKnown) {
+    entry.finishPosition = entry.startPosition - entry.positionChange;
+  }
 }
 
 function normalizeRatingDirection(value) {
@@ -537,11 +580,15 @@ function saveFormEntry(event) {
     car: formData.get("car"),
     sessionDate: formData.get("sessionDate"),
     bestLapInput: normalizeLapTimeValue(formData.get("bestLapInput")),
+    raceTime: normalizeLapTimeValue(formData.get("raceTime")),
+    winnerDelta: normalizeLapTimeValue(formData.get("winnerDelta")),
     startPosition: normalizeNumber(formData.get("startPosition")),
     finishPosition: normalizeNumber(formData.get("finishPosition")),
+    positionChange: normalizeNumber(formData.get("positionChange")),
     drChange: normalizeRatingDirection(formData.get("drChange")),
     srChange: normalizeRatingDirection(formData.get("srChange")),
     penalties: normalizeNumber(formData.get("penalties")) || 0,
+    penaltyReason: String(formData.get("penaltyReason") || "").trim(),
     confidence: Number(formData.get("confidence")),
     mistakeNote: String(formData.get("mistakeNote") || "").trim(),
     positiveNote: String(formData.get("positiveNote") || "").trim(),
@@ -551,9 +598,15 @@ function saveFormEntry(event) {
   if (entry.sessionType !== "Daily Race") {
     entry.startPosition = "";
     entry.finishPosition = "";
+    entry.positionChange = "";
     entry.drChange = "Flat";
     entry.srChange = "Flat";
     entry.penalties = 0;
+    entry.penaltyReason = "";
+    entry.raceTime = "";
+    entry.winnerDelta = "";
+  } else {
+    deriveRacePositions(entry);
   }
 
   if (!entry.sessionDate) {
@@ -701,7 +754,7 @@ function normalizeImportedEntry(entry, index) {
     throw new Error(`Entry ${index + 1} is missing required fields.`);
   }
 
-  return {
+  const normalizedEntry = {
     id: typeof entry.id === "string" && entry.id ? entry.id : crypto.randomUUID(),
     sessionType: String(entry.sessionType),
     eventLabel: String(entry.eventLabel || "").trim(),
@@ -709,16 +762,36 @@ function normalizeImportedEntry(entry, index) {
     car: String(entry.car),
     sessionDate: String(entry.sessionDate),
     bestLapInput: normalizeLapTimeValue(entry.bestLapInput),
+    raceTime: normalizeLapTimeValue(entry.raceTime),
+    winnerDelta: normalizeLapTimeValue(entry.winnerDelta),
     startPosition: entry.startPosition === "" ? "" : Number(entry.startPosition || ""),
     finishPosition: entry.finishPosition === "" ? "" : Number(entry.finishPosition || ""),
+    positionChange: entry.positionChange === "" ? "" : Number(entry.positionChange || ""),
     drChange: normalizeRatingDirection(entry.drChange),
     srChange: normalizeRatingDirection(entry.srChange),
     penalties: entry.penalties === "" ? 0 : Number(entry.penalties || 0),
+    penaltyReason: String(entry.penaltyReason || "").trim(),
     confidence: Number(entry.confidence || 3),
     mistakeNote: String(entry.mistakeNote || "").trim(),
     positiveNote: String(entry.positiveNote || "").trim(),
     summary: String(entry.summary || "").trim()
   };
+
+  if (normalizedEntry.sessionType === "Daily Race") {
+    deriveRacePositions(normalizedEntry);
+  } else {
+    normalizedEntry.startPosition = "";
+    normalizedEntry.finishPosition = "";
+    normalizedEntry.positionChange = "";
+    normalizedEntry.raceTime = "";
+    normalizedEntry.winnerDelta = "";
+    normalizedEntry.penaltyReason = "";
+    normalizedEntry.drChange = "Flat";
+    normalizedEntry.srChange = "Flat";
+    normalizedEntry.penalties = 0;
+  }
+
+  return normalizedEntry;
 }
 
 function handleImportFile(event) {
@@ -760,6 +833,10 @@ function initialize() {
   carSelect.addEventListener("input", handleReferenceInput);
   bestLapField.addEventListener("input", handleBestLapInput);
   bestLapField.addEventListener("blur", handleBestLapInput);
+  raceTimeField.addEventListener("input", () => handleFormattedTimeInput(raceTimeField));
+  raceTimeField.addEventListener("blur", () => handleFormattedTimeInput(raceTimeField));
+  winnerDeltaField.addEventListener("input", () => handleFormattedTimeInput(winnerDeltaField));
+  winnerDeltaField.addEventListener("blur", () => handleFormattedTimeInput(winnerDeltaField));
   sessionTypeSelect.addEventListener("change", syncSessionTypeUI);
   tagButtons.forEach((button) => {
     button.addEventListener("click", () =>

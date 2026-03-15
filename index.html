@@ -97,7 +97,15 @@
               </label>
               <label>
                 Event Label
-                <input id="eventLabel" name="eventLabel" type="text" maxlength="40" placeholder="Race B / TT 29" />
+                <input
+                  id="eventLabel"
+                  name="eventLabel"
+                  type="text"
+                  list="eventOptions"
+                  maxlength="60"
+                  autocomplete="off"
+                  placeholder="Daily Race A / B / C"
+                />
               </label>
             </div>
 
@@ -143,6 +151,7 @@
                   autocomplete="off"
                   placeholder="141982 -> 1:41.982"
                 />
+                <small class="field-meta">Optional. Skip it if GT7 doesn’t make it easy to find.</small>
               </label>
             </div>
           </section>
@@ -160,10 +169,23 @@
               <label>
                 Start
                 <input id="startPosition" name="startPosition" type="number" min="1" max="20" placeholder="6" />
+                <small class="field-meta">Optional if you only remember finish and places moved.</small>
               </label>
               <label>
                 Finish
                 <input id="finishPosition" name="finishPosition" type="number" min="1" max="20" placeholder="4" />
+              </label>
+            </div>
+
+            <div class="field-grid field-grid-two">
+              <label>
+                Position Change
+                <input id="positionChange" name="positionChange" type="number" min="-20" max="20" placeholder="+5" />
+                <small class="field-meta">Use positive for places gained, negative for places lost.</small>
+              </label>
+              <label>
+                Race Time
+                <input id="raceTime" name="raceTime" type="text" inputmode="numeric" autocomplete="off" placeholder="658795 -> 6:58.795" />
               </label>
             </div>
 
@@ -189,6 +211,23 @@
                 <input id="penalties" name="penalties" type="number" min="0" max="10" placeholder="0" />
               </label>
             </div>
+
+            <div class="field-grid field-grid-two">
+              <label>
+                Winner Delta
+                <input id="winnerDelta" name="winnerDelta" type="text" inputmode="numeric" autocomplete="off" placeholder="13123 -> 13.123" />
+              </label>
+              <label>
+                Penalty Reason
+                <textarea
+                  id="penaltyReason"
+                  name="penaltyReason"
+                  rows="2"
+                  maxlength="400"
+                  placeholder="Track limits, contact, pit line, wall penalty..."
+                ></textarea>
+              </label>
+            </div>
           </details>
 
           <section class="form-section">
@@ -207,36 +246,47 @@
               </label>
             </div>
 
-            <div class="quick-tags">
-              <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Overdrove entry">Overdrove entry</button>
-              <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Brake release">Brake release</button>
-              <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Traffic">Traffic</button>
-              <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Good exits">Good exits</button>
-              <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Calm racecraft">Calm racecraft</button>
-              <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Consistency">Consistency</button>
-            </div>
-
             <div class="field-grid">
+              <div class="tag-group">
+                <p class="tag-group-label">Common mistakes</p>
+                <div class="quick-tags">
+                  <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Overdrove entry">Overdrove entry</button>
+                  <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Brake release">Brake release</button>
+                  <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Traffic">Traffic</button>
+                  <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Spin">Spin</button>
+                  <button type="button" class="tag-btn" data-target="mistakeNote" data-tag="Wall contact">Wall contact</button>
+                </div>
+              </div>
               <label>
                 What cost time?
                 <textarea
                   id="mistakeNote"
                   name="mistakeNote"
                   rows="3"
-                  maxlength="220"
+                  maxlength="1200"
                   placeholder="Missed trail brake window into the downhill right-hander and kept over-slowing the chicane."
                 ></textarea>
               </label>
             </div>
 
             <div class="field-grid">
+              <div class="tag-group">
+                <p class="tag-group-label">What felt strong</p>
+                <div class="quick-tags">
+                  <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Good exits">Good exits</button>
+                  <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Calm racecraft">Calm racecraft</button>
+                  <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Consistency">Consistency</button>
+                  <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Recovery drive">Recovery drive</button>
+                  <button type="button" class="tag-btn" data-target="positiveNote" data-tag="Qualifying pace">Qualifying pace</button>
+                </div>
+              </div>
               <label>
                 What felt good?
                 <textarea
                   id="positiveNote"
                   name="positiveNote"
                   rows="3"
-                  maxlength="220"
+                  maxlength="1200"
                   placeholder="Better exits once I stopped forcing entry speed."
                 ></textarea>
               </label>
@@ -249,7 +299,7 @@
                   id="summary"
                   name="summary"
                   rows="2"
-                  maxlength="180"
+                  maxlength="500"
                   placeholder="Started P6, finished P4, calm in traffic, still losing time on technical direction changes."
                 ></textarea>
               </label>
@@ -314,6 +364,12 @@
 
   <datalist id="trackOptions"></datalist>
   <datalist id="carOptions"></datalist>
+  <datalist id="eventOptions">
+    <option value="Daily Race A"></option>
+    <option value="Daily Race B"></option>
+    <option value="Daily Race C"></option>
+    <option value="Online Time Trial"></option>
+  </datalist>
 
   <script src="script.js"></script>
 </body>
